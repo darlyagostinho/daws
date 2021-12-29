@@ -1,0 +1,26 @@
+.page-template-template-home{
+  .home-notices{
+    margin: 2rem 0 0;
+  }
+  .woocommerce-message{
+    border-top: 0;
+    background-color: var(--light-plus-1);
+    border-radius: 0.5rem;
+    color: var(--gray-70);
+    a{
+      color: var(--primary);
+      font-weight: var(--font-500);
+      &:hover{
+        color: var(--primary-light)
+      }
+    }
+    &::before{
+      color: var(--gray-70)
+    }
+  }
+
+  .no-sale{
+    text-align: center;
+  }
+
+}

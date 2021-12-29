@@ -1,0 +1,93 @@
+.about {
+  &__header {
+    .woocommerce-breadcrumb {
+      text-align: center;
+    }
+  }
+
+  &__title {
+    text-align: center;
+  }
+}
+
+.history {
+  color: var(--dark-80);
+
+  &__content {
+    background-color: var(--color-section-light);
+    padding: 2rem;
+    border-top-left-radius: 0.3125rem;
+    border-bottom-left-radius: 0.3125rem;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+  }
+}
+
+.team {
+  background-color: var(--color-faq-item);
+  text-align: center;
+
+  &__title {
+    font-size: var(--fz-h4);
+    font-weight: var(--font-medium);
+    margin-bottom: 3rem;
+  }
+  &__wrapper {
+    padding: 1rem;
+  }
+  &__card {
+    box-shadow: 0.313rem 0.313rem 15px 0.313rem rgba(37, 37, 37, 0.25);
+    border-bottom-left-radius: 0.188rem;
+    border-bottom-right-radius: 0.188rem;
+    &__img {
+      border-top-left-radius: 0.188rem;
+      border-top-right-radius: 0.188rem;
+    }
+    &__body {
+      background-color: var(--color-white);
+      padding: 1rem;
+      border-bottom-left-radius: 0.188rem;
+      border-bottom-right-radius: 0.188rem;
+      &__title {
+        font-size: var(--fz-h6);
+        font-weight: var(--font-medium);
+      }
+
+      &__position {
+        font-size: var(--fz-button);
+        margin: 0;
+        color: var(--color-medium-gray);
+        letter-spacing: 0.063rem;
+      }
+    }
+  }
+}
+
+.gallery {
+  &__title {
+    font-size: var(--fz-h4);
+    font-weight: var(--font-medium);
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  &__img {
+    max-width: 100%;
+    object-fit: cover;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &__item {
+    overflow: hidden;
+    border-right: 0.188rem solid transparent;
+    border-bottom: 0.188rem solid transparent;
+  }
+}

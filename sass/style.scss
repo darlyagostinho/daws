@@ -1,0 +1,51 @@
+/*!
+Theme Name: Eliz Rabelo Dreams
+Theme URI: https://darlyagostinho.com
+Author: Darly Agostinho
+Author URI: https://darlyagostinho.com
+Description: Loja Virtual para comercialização de Roupas Homewear
+Version: 1.0.0
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: erdreams
+Tags: background customizado, logo customizada, menu customizado
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Eliz Rabelo Dreams is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Bootstrap
+# Theme Style
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Bootstrap
+--------------------------------------------------------------*/
+// @import "../node_modules/bootstrap/scss/bootstrap";
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// 4. Include any optional Bootstrap components as you like
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/accordion";
+@import "../node_modules/bootstrap/scss/transitions";
+@import "../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/modal";
+/*--------------------------------------------------------------
+# Theme Style
+--------------------------------------------------------------*/
+@import "er_dreams/theme-style";

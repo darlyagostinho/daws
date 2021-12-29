@@ -1,0 +1,212 @@
+/*hero*/
+#hero {
+  position: relative;
+}
+.hero {
+  &__bg {
+    &__img {
+      @include bg-cover-center;
+      height: 35vh;
+      width: 100%;
+      @media(min-width: 48rem /*768px*/){
+        height: 60vh;
+      }
+    }
+  }
+  &__box {
+    padding: 1.5rem 2rem;
+    @media (min-width: 1024px) {
+      position: absolute;
+      transform: translateY(50%);
+      bottom: 50%;
+      left: 10rem;
+      max-width: 29.688rem;
+    }
+    &__title {
+      @include h5;
+      font-weight: var(--font-medium);
+    }
+    &__desc {
+      @include body-1;
+      margin: 2rem 0;
+      line-height: 1.5rem;
+    }
+  }
+  &__btn {
+    &__group {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.category {
+  &__title {
+    @include category-title;
+  }
+  &__desc {
+    @include category-desc;
+  }
+  &__img {
+    &__box {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+  &__box {
+    height: 100%;
+    padding: 2rem 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/*home*/
+.home {
+  &__subtitle {
+    @include h5;
+    color: var(--color-secondary);
+    &.categories {
+      @media (min-width: 75rem/*1200px*/) {
+        display: none;
+      }
+    }
+    &.features {
+      @media (min-width: 75rem/*1200px*/) {
+        @include h3;
+      }
+    }
+  }
+  &__features {
+    &__header {
+      align-items: center;
+      @media (min-width: 75rem/*1200px*/) {
+        margin-top: 3rem;
+      }
+    }
+    &__desc {
+      @include body-1;
+      color: var(--color-medium-gray);
+    }
+  }
+  &__categories {
+    &__img {
+      &__wrapper {
+        @media (min-width: 75rem/*1200px*/) {
+          order: 1;
+        }
+      }
+    }
+  }
+}
+
+/*see more*/
+.see {
+  &__more {
+    &__link {
+      font-size: var(--fz-button);
+      font-weight: var(--font-medium);
+      line-height: 1rem;
+      letter-spacing: 0.078rem;
+      text-transform: uppercase;
+      padding-left: 1rem;
+    }
+  }
+}
+
+/*lead email*/
+.lead {
+  &__email {
+    &__box {
+      position: relative;
+    }
+    &__main{
+      @media(min-width: 64rem/*1024px*/){
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 2rem;
+        position: absolute;
+        top: 2rem;
+        right: 1rem;
+        width: 100%;
+      }
+    }
+    &__items {
+      &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @include vh-lead-email;
+      }
+    }
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__bg {
+      &__img {
+        @include bg-cover-no-repeat;
+        background-position: -11.25rem;
+        max-width: 100%;
+        @include vh-lead-email;
+        @media (min-width: 48rem/*768px*/) {
+          background-position: 0;
+        }
+      }
+    }
+    &__title {
+      @include h5;
+      color: var(--color-primary);
+      line-height: 2rem;
+      text-align: center;
+      @media(min-width: 64rem/*1024px*/){
+        text-align: left;
+      }
+      @media(min-width: 75rem/*1200px*/){
+        @include h4;
+        line-height: 2.625rem;
+      }
+    }
+    &__desc {
+      @include body-1;
+      line-height: var(--fz-h6);
+      color: var(--color-primary);
+      display: none;
+      @media(min-width: 75rem/*1200px*/){
+        display: block;
+      }
+    }
+    &__form {
+      background-color: var(--color-primary);
+      padding: 1.5rem;
+      @media (min-width: 48rem/*768px*/) {
+        padding: 2rem;
+      }
+    }
+    &__input {
+      height: 2.5rem;
+      border: none;
+      border-top-left-radius: 0.188rem;
+      border-bottom-left-radius: 0.188rem;
+      padding: 1rem;
+      width: 100%;
+      vertical-align: middle;
+      @media (min-width: 48rem/*768px*/) {
+        height: 4rem;
+      }
+      &::placeholder {
+        color: var(--color-secondary);
+        font-size: 1rem;
+      }
+      &:focus-visible {
+        outline-color: var(--color-secondary);
+      }
+    }
+  }
+}

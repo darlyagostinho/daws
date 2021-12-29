@@ -1,0 +1,46 @@
+{
+  "name": "erdreams",
+  "version": "1.0.0",
+  "description": "Roupas Homewear",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darlyagostinho/er_dreams.git"
+  },
+  "keywords": [
+    "homewear",
+    "erdreams",
+    "pijamas",
+    "camisolas",
+    "robes",
+    "wordpress"
+  ],
+  "author": "Darly Agostinho <darlyagostinho@gmail.com> (https://darlyagostinho.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darlyagostinho/er_dreams.git/issues"
+  },
+  "homepage": "https://github.com/darlyagostinho/er_dreams.git#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "bootstrap": "^5.1.1",
+    "browser-sync": "^2.27.5",
+    "cssnano": "^5.0.8",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp-zip": "^5.1.0",
+    "postcss": "^8.3.6",
+    "sass": "^1.41.1"
+  },
+  "dependencies": {}
+}

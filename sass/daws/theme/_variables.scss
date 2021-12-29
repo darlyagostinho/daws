@@ -1,0 +1,81 @@
+:root{
+  /*color*/
+  
+  /*color primary*/
+  --color-primary: #A97975;
+  ;
+  --color-primary-medium: #D7A491
+  ;
+  --color-primary-light: #F0D6CD;
+
+  --color-primary-lighter: #FFEEE9
+  ;
+
+  /*color secondary*/
+  --color-secondary: #4A5C72;
+  --color-secondary-medium: #82A8B1;
+  --color-secondary-light: #C2DCD7;
+
+  /*color feature*/
+  --color-feature: #6A8B40;
+  --color-feature-medium: #8BB457;
+  --color-feature-light: #C5E2A0;
+
+  /*alert color*/
+  --color-alert-primary: #00B833;
+  --color-alert-medium: #2CDE5E
+  ;
+  --color-alert-light: #61FF8D;
+  --color-alert-primary-danger: #b81c23;
+  --bg-alert-danger: #f8d7da;
+
+  /*color neutral*/
+  --color-white: #fff;
+  --color-light: #f0f0f0;
+  --color-black: #333;
+  --color-light-gray: #E4E4E4;
+  --color-medium-gray: #828282;
+
+  /*color measurements table*/
+  --color-measurements-table-dark: #626262;
+  --color-measurements-table-gray: #C4C4C4;
+
+  /*other color*/
+  --color-header: #D9AFA8;
+  --color-border-light: #d7d7d7;
+  --box-shadow: rgba(149, 157, 165, 0.2);
+  --color-faq-item: #f6ebe7;
+  --color-section-light: #fafafa;
+
+  /*woocommerce*/
+  --color-woo-info: #eff2f7;
+  --color-woo-payment-info: #cbdde7;
+  --color-woo-myaccount-border: #f0f0f0;
+  --color-woo-shoptable-border: rgba(0,0,0,.1);
+  --bg-woo-checkout-input: rgb(2 1 2 / 8%);
+
+  /*font*/
+  --font: 'Roboto', sans-serif;
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --fz-h1: 6rem; /*96px*/ 
+  --fz-h2: 3.75rem; /*60px*/ 
+  --fz-h3: 3rem; /*48px*/ 
+  --fz-h4: 2.125rem; /*34px*/ 
+  --fz-h5: 1.5rem; /*24px*/ 
+  --fz-h6: 1.25rem; /*20px*/ 
+  --fz-subtitle-main: 1rem; /*16px*/ 
+  --fz-subtitle-secondary: 0.875rem; /*14px*/ 
+  --fz-body-main: 1rem; /*16px*/ 
+  --fz-body-secondary: 0.875rem; /*14px*/ 
+  --fz-button: 0.875rem; /*14px*/ 
+  --fz-caption: 0.75rem; /*12px*/ 
+  --fz-overline: 0.625rem; /*10px*/ 
+
+}
+
+
+
+
+

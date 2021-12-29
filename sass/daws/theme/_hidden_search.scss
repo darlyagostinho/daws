@@ -1,0 +1,47 @@
+.hidden {
+  &__search {
+    &__form {
+      position: relative;
+      height: 3.125rem;
+      &.active {
+        .hidden {
+          &__search {
+            &__input {
+              visibility: visible;
+              width: 18.75rem;
+            }
+            &__btn {
+              transform: translateX(15.5rem);
+            }
+            &__icon {
+              fill: var(--color-primary);
+            }
+          }
+        }
+      }
+    }
+    &__input {
+      border: none;
+      visibility: hidden;
+      padding: 0.5rem 1rem;
+      border-radius: 0.188rem;
+      height: 3.125rem;
+      width: 3.125rem;
+      transition: width 0.3s ease-in-out;
+      &:focus {
+        outline: none;
+      }
+    }
+    &__btn {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 3.125rem;
+      width: 3.125rem;
+      transition: transform 0.3s ease-in-out;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

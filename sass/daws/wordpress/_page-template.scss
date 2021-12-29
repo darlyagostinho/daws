@@ -1,0 +1,23 @@
+.page-template-default {
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  .entry-content {
+    > ul {
+      list-style-type: initial;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      padding-left: 2rem;
+    }
+  }
+
+  &.privacy-policy{
+    a{
+      color: var(--color-primary);
+      &:hover{
+        color: var(--color-primary-medium);
+      }
+    }
+  }
+}

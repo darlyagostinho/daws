@@ -1,0 +1,428 @@
+/*margin*/
+.mr {
+  &__quarter {
+    &__rem {
+      margin-right: 0.25rem;
+    }
+  }
+  &__1rem {
+    margin-right: 1rem;
+  }
+  &__1-5rem {
+    margin-right: 1.5rem;
+  }
+  &__2rem {
+    margin-right: 2rem;
+  }
+  &__3rem {
+    margin-right: 3rem;
+  }
+}
+
+.ml {
+  &__minus {
+    &__quarter {
+      &__rem {
+        margin-left: -0.25rem;
+      }
+    }
+  }
+  &__half {
+    &__rem {
+      margin-left: 0.5rem;
+    }
+  }
+  &__1rem {
+    margin-left: 1rem;
+  }
+  &__2rem {
+    margin-left: 2rem;
+  }
+}
+
+.mt {
+  &__half {
+    &__rem {
+      margin-top: 0.5rem;
+    }
+  }
+  &__1rem {
+    margin-top: 1rem;
+  }
+  &__1-5rem {
+    margin-top: 1.5rem;
+  }
+  &__2rem {
+    margin-top: 2rem;
+  }
+  &__2-5rem {
+    margin-top: 2.5rem;
+  }
+  &__4rem {
+    margin-top: 4rem;
+  }
+  &__8rem {
+    margin-top: 8rem;
+  }
+}
+
+.mb {
+  &__half{
+    &__rem{
+      margin-bottom: 0.5rem;
+    }
+  }
+  &__1rem {
+    margin-bottom: 1rem;
+  }
+  &__1-5rem {
+    margin-bottom: 1.5rem;
+  }
+  &__2rem {
+    margin-bottom: 2rem;
+  }
+}
+
+.mx {
+  &__1rem {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  &__auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.my {
+  &__4rem {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
+/*padding*/
+.pt {
+  &__half {
+    &__rem {
+      padding-top: 0.5rem;
+    }
+  }
+  &__1rem {
+    padding-top: 1rem;
+  }
+  &__2rem {
+    padding-top: 2rem;
+  }
+  &__3rem {
+    padding-top: 3rem;
+  }
+}
+.pb {
+  &__1rem {
+    padding-bottom: 1rem;
+  }
+  &__3rem {
+    padding-bottom: 3rem;
+  }
+}
+.py{
+  &__1-5rem{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  &__2rem{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  /*60px*/
+  &__3-75rem{
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+}
+
+.p {
+  &__0 {
+    padding: 0 !important;
+  }
+  &__1rem {
+    padding: 1rem;
+  }
+}
+
+/*flex*/
+.flex {
+  &__container {
+    display: flex;
+  }
+  &__align {
+    &__items {
+      &__center {
+        align-items: center;
+      }
+    }
+  }
+  &__justify {
+    &__space {
+      &__between {
+        justify-content: space-between;
+      }
+    }
+    &__content {
+      &__center{
+        justify-content: center;
+      }
+      &__end {
+        justify-content: flex-end;
+      }
+    }
+  }
+  &__direction{
+    &__column{
+      flex-direction: column;
+    }
+  }
+}
+
+/*bg*/
+.bg {
+  &__primary {
+    background-color: var(--color-primary);
+    &__light {
+      background-color: var(--color-primary-light);
+    }
+    &__lighter {
+      background-color: var(--color-primary-lighter);
+    }
+  }
+  &__light {
+    &__gray {
+      background-color: var(--color-light-gray);
+    }
+  }
+  &__medium {
+    &__gradient {
+      background-image: linear-gradient(
+        120deg,
+        #d8a49e 0%,
+        #deada9 50%,
+        #e0b1b1 100%
+      );
+    }
+  }
+  &__secondary {
+    background-color: var(--color-secondary);
+    &__medium {
+      background-color: var(--color-secondary-medium);
+    }
+  }
+  &__header {
+    background-color: var(--color-header);
+  }
+  &__white {
+    background-color: var(--color-white);
+  }
+  &__butterflies {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+    @media (min-width: 75rem/*1200px*/) {
+      display: block;
+    }
+  }
+}
+
+/*color*/
+.color {
+  &__primary {
+    color: var(--color-primary);
+  }
+  &__white {
+    color: var(--color-white);
+  }
+}
+
+/*img*/
+.img {
+  &__responsive {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/*shop*/
+.product {
+  &__old {
+    &__price {
+      background-color: var(--color-primary-light);
+      color: var(--color-primary);
+      width: 6.25rem;
+      padding: 0.5rem;
+    }
+  }
+  &__price {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    width: 7.5rem;
+    padding: 0.5rem;
+    &__box{
+      position: absolute;
+      top: 1rem;
+      left:0;
+    }
+    &__del {
+      color: var(--color-primary);
+    }
+  }
+  &__desc {
+    @include h5;
+    line-height: 2rem;
+  }
+  &__wrapper {
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 60%;
+    left: 1rem;
+    transform: translateY(50%);
+  }
+  &__view{
+    &__icon{
+      &__wrapper{
+        position: absolute;
+        bottom: 20%;
+        left: 1rem;
+      }
+    }
+  }
+}
+
+.login {
+  &__username {
+    color: var(--color-white);
+    margin-left: 0.25rem;
+    vertical-align: middle;
+  }
+}
+
+.shop {
+  &__cart {
+    &__badge {
+      width: 1.125rem;
+      height: 1.125rem;
+      padding: 0 0.063rem;
+      font-size: 0.625rem;
+      font-weight: var(--font-medium);
+      line-height: 1.125rem;
+      color: var(--color-white);
+      border-radius: 50%;
+      position: absolute;
+      right: 0.25rem;
+      top: 0.375rem;
+      background-color: var(--color-alert-primary-danger);
+      &.mobile{
+        right: -0.4rem;
+        top: 0.25rem;
+      }
+    }
+  }
+}
+
+/*text*/
+.text {
+  &__center {
+    text-align: center;
+  }
+  &__transform{
+    &__none{
+      text-transform: none;
+    }
+  }
+}
+
+.small__caption {
+  @include small-caption;
+  a{
+    color: var(--color-primary);
+  }
+}
+
+/*layout*/
+.section{
+  &__box{
+    padding: 4rem 0;
+  }
+}
+
+.circle {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &.medium {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+.line {
+  width: calc(100% - 6.25rem);
+  height: 0.031rem;
+  background-color: var(--color-secondary);
+  &.w-100 {
+    width: 100%;
+  }
+  &.bg {
+    &__secondary {
+      &__medium {
+        background-color: var(--color-secondary-medium);
+      }
+    }
+  }
+}
+
+.position {
+  &__relative {
+    position: relative;
+  }
+}
+
+.vh {
+  &__50 {
+    height: 50vh;
+  }
+}
+
+.d {
+  &__none {
+    display: none;
+  }
+}
+
+.icon {
+  &__2rem {
+    width: 2rem;
+    height: 2rem;
+  }
+  &__view{
+    position: absolute;
+    bottom: 20%;
+    left: 1.75rem;
+    &:hover{
+      background-color: var(--color-black);
+    }
+  }
+}
+
+.overflow{
+  &__hidden{
+    overflow: hidden;
+  }
+} 
+

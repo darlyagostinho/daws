@@ -1,0 +1,17 @@
+.btn{
+  &__float{
+    &__whatsapp {
+      position: fixed;
+      bottom: 2.5rem;
+      right: 1rem;
+      border: none;
+      background-color: transparent;
+      z-index: 5001;
+      &.hide{
+        display: none;
+      }
+    }
+  }
+}
+
+

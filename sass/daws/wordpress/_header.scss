@@ -1,0 +1,47 @@
+/** 1 - Menu **/
+
+/* 1.1 - #Top Nav Menu */
+#top-nav-menu > .menu-item{
+  color: var(--light);
+  font-size: var(--font-size-link);
+  font-family: var(--font-body);
+  font-weight: var(--font-400);
+  padding: 8px 20px;
+}
+
+#top-nav-menu .menu-item > a{
+  color: var(--light);
+}
+
+#top-nav-menu .menu-item > a:hover{
+  color: var(--light-70);
+}
+
+/* 1.2 - #Category Menu */
+#category-menu{
+  margin: auto;
+  padding: auto;
+}
+
+#category-menu .menu-item{
+  color: var(--primary-dark);
+  font-family: var(--font-body);
+  font-weight: var(--font-500);
+}
+
+#category-menu .menu-item > a{
+  color: var(--primary);
+}
+
+#category-menu .menu-item > a:hover{
+  color: var(--primary-light);
+}
+
+/** 2 - Logo **/
+img.custom-logo{
+  width: 4rem;
+  height: auto;
+  @media(min-width: 75rem/*1200px*/){
+    width: 6rem;
+  }
+} 
