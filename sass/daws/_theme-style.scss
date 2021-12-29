@@ -4,43 +4,16 @@
 @import 'theme/general';
 @import 'theme/buttons';
 @import 'theme/input';
-@import 'theme/modal';
 @import 'theme/float_whatsapp';
-@import 'theme/hidden_search';
 @import 'theme/utilities';
 @import 'theme/bg_icons';
 @import 'theme/nav';
 @import 'theme/section';
-@import 'theme/single_page';
 @import 'theme/categories_product';
 @import 'theme/template/home';
-@import 'theme/template/faq';
-@import 'theme/template/about';
-@import 'theme/template/shop';
-@import 'theme/template/product';
 @import 'theme/template/404';
 
-/**Vendor**/
-@import 'vendor/aws-plugin';
-@import 'vendor/variation-swatches-plugin';
-@import 'vendor/cookie-notice-plugin';
-@import 'vendor/qib-plugin';
-@import '../../css/vendor/splide.min';
-@import 'vendor/splide-slider';
-@import '../../css/vendor/hes-gallery';
-@import 'vendor/hes-gallery';
 
-/**WordPress**/
-@import 'wordpress/header';
-@import 'wordpress/image-sizes';
-@import 'wordpress/page-template';
 
-/**Woocommerce**/
-@import 'woocommerce/general';
-@import 'woocommerce/product';
-@import 'woocommerce/input';
-@import 'woocommerce/archive';
-@import 'woocommerce/single-product';
-@import 'woocommerce/cart';
-@import 'woocommerce/myaccount';
-@import 'woocommerce/checkout';
+
+

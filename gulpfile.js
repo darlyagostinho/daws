@@ -10,7 +10,7 @@ const postcss = require('gulp-postcss');
 const cssnano = require('cssnano');
 const autoprefixer = require('autoprefixer');
 const del = require('del');
-const theme = 'er_dreams';
+const theme = 'daws';
 const zip = require('gulp-zip');
 
 function clean(){
@@ -61,27 +61,15 @@ function jsVendor() {
       .pipe(gulp.dest(`./dist/${theme}/assets/js/vendor`));
 }
 
-function jsUglifyCart() {
-  return gulp.src('./assets/js/cart.js')
-    .pipe(uglify())
-    .pipe(gulp.dest(`./dist/${theme}/assets/js`));
-}
-
 function jsUglifyNav() {
   return gulp.src('./assets/js/nav.js')
     .pipe(uglify())
     .pipe(gulp.dest(`./dist/${theme}/assets/js`));
 }
 
-function jsUglifySplide() {
-  return gulp.src('./assets/js/splide.js')
-    .pipe(uglify())
-    .pipe(gulp.dest(`./dist/${theme}/assets/js`));
-}
-
 function browser() {
   browserSync.init({
-    proxy: "http://localhost/er_dreams/"
+    proxy: `http://localhost/${theme}v3/`
   });
 }
 
@@ -93,11 +81,10 @@ function watchFiles(){
   gulp.watch('./**/*.js').on('change', browserSync.reload);
 }
 
-exports.default = gulp.parallel(browser, watchFiles);
+exports.default = gulp.series(generateCss, gulp.parallel(browser, watchFiles));   
 exports.generateCss = gulp.series(generateCss);
 exports.watch = watchFiles;
 exports.cssminify = cssminify;
 exports.browser = browser;
-exports.prod = gulp.series(clean, cssminify, css, gulp.parallel(jsUglifyCart, jsUglifyNav, jsUglifySplide, jsVendor), wordpress, zipFile);
+exports.prod = gulp.series(clean, generateCss, cssminify, css, gulp.parallel(jsUglifyNav, jsVendor), wordpress, zipFile);
 exports.jsVendor = jsVendor;
-// exports.jsUglify = jsUglify;

@@ -1,20 +1,20 @@
 /*!
-Theme Name: Eliz Rabelo Dreams
+Theme Name: Darly Agostinho Websites
 Theme URI: https://darlyagostinho.com
 Author: Darly Agostinho
 Author URI: https://darlyagostinho.com
-Description: Loja Virtual para comercialização de Roupas Homewear
-Version: 1.0.0
+Description: Personal Website
+Version: 3.0.0
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: erdreams
+Text Domain: daws
 Tags: background customizado, logo customizada, menu customizado
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned.
 
-Eliz Rabelo Dreams is distributed under the terms of the GNU GPL v2 or later.
+Darly Agostinho Websites is distributed under the terms of the GNU GPL v2 or later.
 */
 
 /*--------------------------------------------------------------
@@ -44,8 +44,7 @@ Eliz Rabelo Dreams is distributed under the terms of the GNU GPL v2 or later.
 @import "../node_modules/bootstrap/scss/accordion";
 @import "../node_modules/bootstrap/scss/transitions";
 @import "../node_modules/bootstrap/scss/forms";
-@import "../node_modules/bootstrap/scss/modal";
 /*--------------------------------------------------------------
 # Theme Style
 --------------------------------------------------------------*/
-@import "er_dreams/theme-style";
+@import "daws/theme-style";
