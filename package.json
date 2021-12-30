@@ -1,5 +1,5 @@
 {
-  "name": "erdreams",
+  "name": "daws",
   "version": "1.0.0",
   "description": "Roupas Homewear",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "homewear",
-    "erdreams",
+    "daws",
     "pijamas",
     "camisolas",
     "robes",
