@@ -4,6 +4,14 @@ body{
   font-size: var(--font-regular);
 }
 
+h2{
+  @include secondary-title;
+}
+
+h3{
+  @include tertiary-title;
+}
+
 a,
 a:hover{
   text-decoration: none;

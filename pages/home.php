@@ -7,6 +7,8 @@ get_header();
 <!-- https://darlyagostinho.com/wp-content/uploads/2021/12/resume-photo.jpg
 https://darlyagostinho.com/wp-content/uploads/2021/12/hero-bg.jpg
 https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg -->
+
+<!--hero-->
 <section id="hero" class="hero  bg__secondary py__2rem">
   <div class="container">
     <div class="hero__wrapper">
@@ -113,4 +115,27 @@ https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg -->
     </nav>
   </div>
 </section>
+<!--#hero-->
+
+<!--about-->
+<section id="about" class="about bg__light py__2rem">
+  <div class="container">
+    <div class="title__wrapper flex__container flex__align__items__center">
+      <h2 class="about__title m__0">Sobre</h2>
+      <div class="line ml__half__rem"></div>
+    </div>
+    <h3 class="about__subtitle mt__half__rem">Minha Trajetória</h3>
+    <div class="about__content bg__white p__1rem mt__1rem">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa, inventore id minus rerum ducimus molestiae saepe! Commodi, ea aperiam.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa, inventore id minus rerum ducimus molestiae saepe! Commodi, ea aperiam.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa, inventore id minus rerum ducimus molestiae saepe! Commodi, ea aperiam.</p>
+    </div>
+    <div class="about__img__wrapper">
+      <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg" alt="Foto Darly Agostinho Trabalhando com o Notebook" class="about__img img__responsive">
+    </div>
+  </div>
+</section>
+<!--#about-->
+
+
 <?php get_footer(); ?>
