@@ -39,31 +39,60 @@
     display: flex;
     align-items: center;
     @include nav-link;
-    &.active{
+    &.active {
       color: var(--color-white);
     }
   }
-  &__icon{
-    fill: var(--color-gray-light);
-    &.active{
+  &__icon {
+    fill: var(--color-light-gray);
+    &.active {
       fill: var(--color-primary);
     }
   }
 }
 
 /*social media*/
-.social{
-  &__media{
-    &__item{
-      &:hover{
+.social {
+  &__media {
+    &__item {
+      &:hover {
         background-color: var(--color-primary);
       }
     }
   }
 }
 
+/*logo*/
+.logo {
+  margin-left: -0.625rem;
+}
 
-
-
-
-
+/*footer*/
+.footer {
+  background-color: var(--color-secondary);
+  &__title {
+    @include tertiary-title(
+      1.5rem,
+      --font-regular,
+      --color-white,
+      none,
+      0.045rem
+    );
+    margin: 1rem 0;
+  }
+  &__desc {
+    color: var(--color-medium-gray);
+  }
+  &__link {
+    @include nav-link(--color-medium-gray);
+    &:hover{
+      color: var(--color-primary);
+    }
+  }
+  &__icon {
+    fill: var(--color-medium-gray);
+    &:hover{
+      fill: var(--color-primary);
+    }
+  }
+}
