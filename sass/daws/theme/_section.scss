@@ -70,3 +70,27 @@
     }
   }
 }
+/*portfolio*/
+.portfolio{
+  &__item{
+    &__img{
+      border-radius: 0.25rem;
+      box-shadow: 0 0.25rem 0.25rem rgb(0 0 0 / 25%);
+    }
+    &__category{
+      color: var(--color-primary-medium);
+      font-size: 0.625rem;
+      text-transform: uppercase;
+      letter-spacing: 0.035rem;
+    }
+    &__link{
+      color: var(--color-secondary);
+      font-size: 1.125rem;
+      font-weight: var(--font-medium);
+      display: inline-block;
+    }
+    &__business{
+      font-size: 0.75rem;
+    }
+  }
+}

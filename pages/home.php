@@ -7,6 +7,19 @@ get_header();
 <!-- https://darlyagostinho.com/wp-content/uploads/2021/12/resume-photo.jpg
 https://darlyagostinho.com/wp-content/uploads/2021/12/hero-bg.jpg
 https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg 
+
+
+https://darlyagostinho.com/wp-content/uploads/2021/12/eliz-rabelo-dreams-capa.png
+
+https://darlyagostinho.com/wp-content/uploads/2021/12/petiscos-e-cia-capa.png
+
+https://darlyagostinho.com/wp-content/uploads/2021/12/master-protecao-veicular-capa.png
+
+https://darlyagostinho.com/wp-content/uploads/2021/12/hellinger-capa.png
+
+https://darlyagostinho.com/wp-content/uploads/2021/12/reataxi-capa.png
+
+
 -->
 
 <!--hero-->
@@ -109,7 +122,6 @@ https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg
               <path d="M15 7h3v2h-3zm0 4h3v2h-3z" />
             </svg>
             <span class="ml__half__rem">Portfolio</span>
-
           </a>
         </li>
       </ul>
@@ -121,11 +133,13 @@ https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg
 <!--about-->
 <section id="about" class="bg__light py__2rem">
   <div class="container">
-    <div class="title__wrapper flex__container flex__align__items__center">
-      <h2 class="about__title m__0">Sobre</h2>
-      <div class="line ml__half__rem"></div>
-    </div>
-    <h3 class="about__subtitle mt__half__rem">Minha Trajetória</h3>
+    <header class="about__header">
+      <div class="about__title flex__container flex__align__items__center">
+        <h2 class="about__title m__0">Sobre</h2>
+        <div class="line ml__half__rem"></div>
+      </div>
+      <h3 class="about__subtitle mt__half__rem">Minha Trajetória</h3>
+    </header>
     <div class="about__content bg__white p__1rem mt__1rem">
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa, inventore id minus rerum ducimus
         molestiae saepe! Commodi, ea aperiam.</p>
@@ -317,6 +331,77 @@ https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg
   </div>
 </section>
 <!--#resume-->
+
+<!--portfolio-->
+<section id="portfolio" class="bg__light py__2rem">
+  <div class="container">
+    <header class="portfolio__header">
+      <div class="portfolio__title flex__container flex__align__items__center">
+        <h2 class="portfolio__title m__0">Portfólio</h2>
+        <div class="line ml__half__rem"></div>
+      </div>
+      <h3 class="portfolio__subtitle mt__half__rem">Trabalhos Recentes</h3>
+    </header>
+    <div class="row">
+      <div class="col-lg-4 mt__2rem">
+        <div class="portfolio__item__img__wrapper">
+          <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/eliz-rabelo-dreams-capa.png"
+            alt="Capa Site Eliz Rabelo Dreams" class="img__responsive portfolio__item__img">
+        </div>
+        <div class="portfolio__item__info mt__1rem">
+          <div class="portfolio__item__category">Loja Virtual</div>
+          <a href="#" class="portfolio__item__link mt__quarter__rem">Eliz Rabelo Dreams</a>
+          <div class="portfolio__item__business mt__quarter__rem">Homewear</div>
+        </div>
+      </div>
+      <div class="col-lg-4 mt__2rem">
+        <div class="portfolio__item__img__wrapper">
+          <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/petiscos-e-cia-capa.png"
+            alt="Capa Site Petiscos e Cia" class="img__responsive portfolio__item__img">
+        </div>
+        <div class="portfolio__item__info mt__1rem">
+          <div class="portfolio__item__category">Loja Virtual</div>
+          <a href="#" class="portfolio__item__link mt__quarter__rem">Petiscos e Cia</a>
+          <div class="portfolio__item__business mt__quarter__rem">Petiscos Congelados</div>
+        </div>
+      </div>
+      <div class="col-lg-4 mt__2rem">
+        <div class="portfolio__item__img__wrapper">
+          <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/master-protecao-veicular-capa.png"
+            alt="Capa Site Master Proteção Veicular" class="img__responsive portfolio__item__img">
+        </div>
+        <div class="portfolio__item__info mt__1rem">
+          <div class="portfolio__item__category">Site</div>
+          <a href="#" class="portfolio__item__link mt__quarter__rem">Master</a>
+          <div class="portfolio__item__business mt__quarter__rem">Proteção Veicular</div>
+        </div>
+      </div>
+      <div class="col-lg-4 mt__2rem">
+        <div class="portfolio__item__img__wrapper">
+          <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/hellinger-capa.png"
+            alt="Capa Site Hellinger" class="img__responsive portfolio__item__img">
+        </div>
+        <div class="portfolio__item__info mt__1rem">
+          <div class="portfolio__item__category">Sistema</div>
+          <a href="#" class="portfolio__item__link mt__quarter__rem">Hellinger</a>
+          <div class="portfolio__item__business mt__quarter__rem">Classificados de Profissionais</div>
+        </div>
+      </div>
+      <div class="col-lg-4 mt__2rem">
+        <div class="portfolio__item__img__wrapper">
+          <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/reataxi-capa.png"
+            alt="Capa Site Rea Taxi SP" class="img__responsive portfolio__item__img">
+        </div>
+        <div class="portfolio__item__info mt__1rem">
+          <div class="portfolio__item__category">Site</div>
+          <a href="#" class="portfolio__item__link mt__quarter__rem">REA TAXI SP</a>
+          <div class="portfolio__item__business mt__quarter__rem">Serviços Transfer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--#portfolio-->
 
 
 <?php get_footer(); ?>
