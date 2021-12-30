@@ -20,11 +20,9 @@
 }
 
 .ml {
-  &__minus {
-    &__quarter {
-      &__rem {
-        margin-left: -0.25rem;
-      }
+  &__quarter {
+    &__rem {
+      margin-left: 0.25rem;
     }
   }
   &__half {
@@ -127,6 +125,10 @@
   }
 }
 .py {
+  &__1rem{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
   &__1-5rem {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;

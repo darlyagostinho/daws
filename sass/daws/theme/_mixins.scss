@@ -1,22 +1,14 @@
+/*nav*/
+@mixin nav-link($color: --color-gray-light, $font-size: 0.875rem){
+  color: var(--color-gray-light);
+  font-size: $font-size;
+}
+
 /*title*/
-/*mobile*/
 @mixin main-title($font-size: 1.5rem, $font-weight: --font-regular, $color: --color-white){
   color: var($color);
   font-size: $font-size;
   font-weight: var($font-weight);
-
-}
-
-@mixin secondary-title-mobile{
-  font-size: 1.125rem;
-}
-
-@mixin main-title-desktop{
-  font-size: 3rem;
-}
-
-@mixin secondary-title-desktop{
-  font-size: 1.5rem;
 }
 
 /*hero*/

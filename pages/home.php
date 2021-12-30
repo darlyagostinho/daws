@@ -12,7 +12,7 @@ https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg -->
     <div class="hero__wrapper">
       <div class="hero__img__wrapper">
         <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/resume-photo.jpg" alt="Foto Darly Agostinho"
-          class="hero__img">
+          class="hero__img img__responsive">
       </div>
 
       <h1 class="hero__title mt__1rem">Darly Agostinho</h1>
@@ -69,6 +69,48 @@ https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg -->
         </li>
       </ul>
     </div>
+    <nav>
+      <ul class="nav__list mt__1rem">
+        <li class="nav__item py__1rem">
+          <a href="#" class="nav__link active">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="nav__icon active">
+              <path
+                d="M3 13h1v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7h1a1 1 0 0 0 .707-1.707l-9-9a.999.999 0 0 0-1.414 0l-9 9A1 1 0 0 0 3 13zm7 7v-5h4v5h-4zm2-15.586 6 6V15l.001 5H16v-5c0-1.103-.897-2-2-2h-4c-1.103 0-2 .897-2 2v5H6v-9.586l6-6z" />
+            </svg>
+            <span class="ml__half__rem">Home</span>
+          </a>
+        </li>
+        <li class="nav__item py__1rem">
+          <a href="#" class="nav__link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="nav__icon">
+              <path
+                d="M12 2a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z" />
+            </svg>
+            <span class="ml__half__rem">Sobre</span>
+          </a>
+        </li>
+        <li class="nav__item py__1rem">
+          <a href="#" class="nav__link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="nav__icon">
+              <path
+                d="M19.937 8.68c-.011-.032-.02-.063-.033-.094a.997.997 0 0 0-.196-.293l-6-6a.997.997 0 0 0-.293-.196c-.03-.014-.062-.022-.094-.033a.991.991 0 0 0-.259-.051C13.04 2.011 13.021 2 13 2H6c-1.103 0-2 .897-2 2v16c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V9c0-.021-.011-.04-.013-.062a.99.99 0 0 0-.05-.258zM16.586 8H14V5.414L16.586 8zM6 20V4h6v5a1 1 0 0 0 1 1h5l.002 10H6z" />
+            </svg>
+            <span class="ml__half__rem">Currículo</span>
+          </a>
+        </li>
+        <li class="nav__item py__1rem">
+          <a href="#" class="nav__link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="nav__icon">
+              <path
+                d="M20 3H4c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2zM4 19V5h7v14H4zm9 0V5h7l.001 14H13z" />
+              <path d="M15 7h3v2h-3zm0 4h3v2h-3z" />
+            </svg>
+            <span class="ml__half__rem">Portfolio</span>
+
+          </a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </section>
 <?php get_footer(); ?>
