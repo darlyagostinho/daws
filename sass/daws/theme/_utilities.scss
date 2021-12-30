@@ -65,6 +65,9 @@
 }
 
 .mb {
+  &__0{
+    margin-bottom: 0;
+  }
   &__half {
     &__rem {
       margin-bottom: 0.5rem;
@@ -107,6 +110,11 @@
 
 /*padding*/
 .pt {
+  &__quarter {
+    &__rem {
+      padding-top: 0.25rem;
+    }
+  }
   &__half {
     &__rem {
       padding-top: 0.5rem;
@@ -234,12 +242,11 @@
 
 /*layout*/
 .circle {
-  width: 2.25rem;
-  height: 2.25rem;
+  @include circle;
+}
+
+.rounded{
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .line{

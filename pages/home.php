@@ -6,15 +6,16 @@ get_header();
 ?>
 <!-- https://darlyagostinho.com/wp-content/uploads/2021/12/resume-photo.jpg
 https://darlyagostinho.com/wp-content/uploads/2021/12/hero-bg.jpg
-https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg -->
+https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg 
+-->
 
 <!--hero-->
-<section id="hero" class="hero  bg__secondary py__2rem">
+<section id="hero" class="bg__secondary py__2rem">
   <div class="container">
     <div class="hero__wrapper">
       <div class="hero__img__wrapper">
         <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/resume-photo.jpg" alt="Foto Darly Agostinho"
-          class="hero__img img__responsive">
+          class="rounded img__responsive">
       </div>
 
       <h1 class="hero__title mt__1rem">Darly Agostinho</h1>
@@ -118,7 +119,7 @@ https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg -->
 <!--#hero-->
 
 <!--about-->
-<section id="about" class="about bg__light py__2rem">
+<section id="about" class="bg__light py__2rem">
   <div class="container">
     <div class="title__wrapper flex__container flex__align__items__center">
       <h2 class="about__title m__0">Sobre</h2>
@@ -126,16 +127,196 @@ https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg -->
     </div>
     <h3 class="about__subtitle mt__half__rem">Minha Trajetória</h3>
     <div class="about__content bg__white p__1rem mt__1rem">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa, inventore id minus rerum ducimus molestiae saepe! Commodi, ea aperiam.</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa, inventore id minus rerum ducimus molestiae saepe! Commodi, ea aperiam.</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa, inventore id minus rerum ducimus molestiae saepe! Commodi, ea aperiam.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa, inventore id minus rerum ducimus
+        molestiae saepe! Commodi, ea aperiam.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa, inventore id minus rerum ducimus
+        molestiae saepe! Commodi, ea aperiam.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa, inventore id minus rerum ducimus
+        molestiae saepe! Commodi, ea aperiam.</p>
     </div>
     <div class="about__img__wrapper">
-      <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg" alt="Foto Darly Agostinho Trabalhando com o Notebook" class="about__img img__responsive">
+      <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/about-img.jpg"
+        alt="Foto Darly Agostinho Trabalhando com o Notebook" class="img__responsive">
     </div>
   </div>
 </section>
 <!--#about-->
+
+<!--resume-->
+<section id="resume" class="py__2rem">
+  <div class="container">
+    <div class="resume__header">
+      <div class="resume__img__wrapper">
+        <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/resume-photo.jpg" alt="Foto Darly Agostinho"
+          class="rounded img__responsive">
+      </div>
+      <h2 class="resume__title mt__2rem mb__0">Darly Cesar Marcelino Agostinho</h2>
+      <h3 class="resume__subtitle mt__half__rem mb__0">Desenvolvedor Web Fullstack</h3>
+    </div>
+    <ul class="resume__contact__list mt__1-5rem">
+      <li class="resume__contact__item mt__1rem">
+        <a href="#" class="resume__contact__link">
+          <div class="resume__contact__icon__wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#fff">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M18.403 5.633A8.919 8.919 0 0 0 12.053 3c-4.948 0-8.976 4.027-8.978 8.977 0 1.582.413 3.126 1.198 4.488L3 21.116l4.759-1.249a8.981 8.981 0 0 0 4.29 1.093h.004c4.947 0 8.975-4.027 8.977-8.977a8.926 8.926 0 0 0-2.627-6.35m-6.35 13.812h-.003a7.446 7.446 0 0 1-3.798-1.041l-.272-.162-2.824.741.753-2.753-.177-.282a7.448 7.448 0 0 1-1.141-3.971c.002-4.114 3.349-7.461 7.465-7.461a7.413 7.413 0 0 1 5.275 2.188 7.42 7.42 0 0 1 2.183 5.279c-.002 4.114-3.349 7.462-7.461 7.462m4.093-5.589c-.225-.113-1.327-.655-1.533-.73-.205-.075-.354-.112-.504.112s-.58.729-.711.879-.262.168-.486.056-.947-.349-1.804-1.113c-.667-.595-1.117-1.329-1.248-1.554s-.014-.346.099-.458c.101-.1.224-.262.336-.393.112-.131.149-.224.224-.374s.038-.281-.019-.393c-.056-.113-.505-1.217-.692-1.666-.181-.435-.366-.377-.504-.383a9.65 9.65 0 0 0-.429-.008.826.826 0 0 0-.599.28c-.206.225-.785.767-.785 1.871s.804 2.171.916 2.321c.112.15 1.582 2.415 3.832 3.387.536.231.954.369 1.279.473.537.171 1.026.146 1.413.089.431-.064 1.327-.542 1.514-1.066.187-.524.187-.973.131-1.067-.056-.094-.207-.151-.43-.263" />
+            </svg>
+          </div>
+          <span class="ml__half__rem">(62) 98274-1818</span>
+        </a>
+      </li>
+      <li class="resume__contact__item mt__1rem"><a href="#" class="resume__contact__link">
+          <div class="resume__contact__icon__wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#fff">
+              <path
+                d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z" />
+            </svg>
+          </div>
+          <span class="ml__half__rem">darlyagostinho@gmail.com</span>
+        </a>
+      </li>
+      <li class="resume__contact__item mt__1rem">
+        <a href="#" class="resume__contact__link">
+          <div class="resume__contact__icon__wrapper">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M3.73719 5.39775C4.64349 5.39775 5.37819 4.66305 5.37819 3.75675C5.37819 2.85045 4.64349 2.11575 3.73719 2.11575C2.83089 2.11575 2.09619 2.85045 2.09619 3.75675C2.09619 4.66305 2.83089 5.39775 3.73719 5.39775Z"
+                fill="#fff" />
+              <path
+                d="M6.92779 6.64126V15.7455H9.75454V11.2433C9.75454 10.0553 9.97804 8.90476 11.451 8.90476C12.9038 8.90476 12.9218 10.263 12.9218 11.3183V15.7463H15.75V10.7535C15.75 8.30101 15.222 6.41626 12.3555 6.41626C10.9793 6.41626 10.0568 7.17151 9.67954 7.88626H9.64129V6.64126H6.92779ZM2.32129 6.64126H5.15254V15.7455H2.32129V6.64126Z"
+                fill="#fff" />
+            </svg>
+          </div>
+          <span
+            class="ml__half__rem resume__contact__link__desc">https://www.linkedin.com/in/darly-agostinho-45682722/</span>
+        </a>
+      </li>
+    </ul>
+    <div class="resume__body mt__2rem">
+      <article class="resume__item">
+        <header class="resume__item__header flex__container flex__align__items__center">
+          <div class="resume__item__icon__wrapper pt__quarter__rem">
+            <svg width="22" height="22" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M23 2H4.33333C3.0465 2 2 3.0465 2 4.33333V18.3333C2 19.6202 3.0465 20.6667 4.33333 20.6667H7.83333V25.0615L15.1565 20.6667H23C24.2868 20.6667 25.3333 19.6202 25.3333 18.3333V4.33333C25.3333 3.0465 24.2868 2 23 2ZM23 18.3333H14.5102L10.1667 20.9385V18.3333H4.33333V4.33333H23V18.3333Z"
+                fill="#2DFF2C" />
+            </svg>
+          </div>
+          <h4 class="resume__item__title ml__1rem">Resumo</h4>
+        </header>
+        <div class="resume__item__body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, alias dolores quae, fuga magnam quia
+            repudiandae
+            debitis, maiores quibusdam laboriosam error voluptas provident dicta autem deleniti rerum eveniet blanditiis
+            placeat?</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, amet natus? Aliquam eum praesentium
+            excepturi facere vitae cumque minus necessitatibus!</p>
+        </div>
+      </article>
+      <article class="resume__item">
+        <header class="resume__item__header flex__container flex__align__items__center">
+          <div class="resume__item__icon__wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 24 24" width="22" fill="#2DFF2C">
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M14 6V4h-4v2h4zM4 8v11h16V8H4zm16-2c1.11 0 2 .89 2 2v11c0 1.11-.89 2-2 2H4c-1.11 0-2-.89-2-2l.01-11c0-1.11.88-2 1.99-2h4V4c0-1.11.89-2 2-2h4c1.11 0 2 .89 2 2v2h4z" />
+            </svg>
+          </div>
+          <h4 class="resume__item__title ml__1rem">Experiência</h4>
+        </header>
+        <div class="resume__item__body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, alias dolores quae, fuga magnam quia
+            repudiandae
+            debitis, maiores quibusdam laboriosam error voluptas provident dicta autem deleniti rerum eveniet blanditiis
+            placeat?</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, amet natus? Aliquam eum praesentium
+            excepturi facere vitae cumque minus necessitatibus!</p>
+        </div>
+      </article>
+      <article class="resume__item">
+        <header class="resume__item__header flex__container flex__align__items__center">
+          <div class="resume__item__icon__wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 24 24" width="22" fill="#2DFF2C">
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
+            </svg>
+          </div>
+          <h4 class="resume__item__title ml__1rem">Formação Acadêmica</h4>
+        </header>
+        <div class="resume__item__body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, alias dolores quae, fuga magnam quia
+            repudiandae
+            debitis, maiores quibusdam laboriosam error voluptas provident dicta autem deleniti rerum eveniet blanditiis
+            placeat?</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, amet natus? Aliquam eum praesentium
+            excepturi facere vitae cumque minus necessitatibus!</p>
+        </div>
+      </article>
+      <article class="resume__item">
+        <header class="resume__item__header flex__container flex__align__items__center">
+          <div class="resume__item__icon__wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="22" viewBox="0 0 24 24"
+              width="22" fill="#2DFF2C">
+              <rect fill="none" height="24" width="24" />
+              <path
+                d="M9.68,13.69L12,11.93l2.31,1.76l-0.88-2.85L15.75,9h-2.84L12,6.19L11.09,9H8.25l2.31,1.84L9.68,13.69z M20,10 c0-4.42-3.58-8-8-8s-8,3.58-8,8c0,2.03,0.76,3.87,2,5.28V23l6-2l6,2v-7.72C19.24,13.87,20,12.03,20,10z M12,4c3.31,0,6,2.69,6,6 s-2.69,6-6,6s-6-2.69-6-6S8.69,4,12,4z M12,19l-4,1.02v-3.1C9.18,17.6,10.54,18,12,18s2.82-0.4,4-1.08v3.1L12,19z" />
+            </svg>
+          </div>
+          <h4 class="resume__item__title ml__1rem">Cursos e Certificados</h4>
+        </header>
+        <div class="resume__item__body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, alias dolores quae, fuga magnam quia
+            repudiandae
+            debitis, maiores quibusdam laboriosam error voluptas provident dicta autem deleniti rerum eveniet blanditiis
+            placeat?</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, amet natus? Aliquam eum praesentium
+            excepturi facere vitae cumque minus necessitatibus!</p>
+        </div>
+      </article>
+      <article class="resume__item">
+        <header class="resume__item__header flex__container flex__align__items__center">
+          <div class="resume__item__icon__wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#2DFF2C">
+              <path
+                d="m6.516 14.323-1.49 6.452a.998.998 0 0 0 1.529 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082a1 1 0 0 0-.59-1.74l-5.701-.454-2.467-5.461a.998.998 0 0 0-1.822 0L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.214 4.107zm2.853-4.326a.998.998 0 0 0 .832-.586L12 5.43l1.799 3.981a.998.998 0 0 0 .832.586l3.972.315-3.271 2.944c-.284.256-.397.65-.293 1.018l1.253 4.385-3.736-2.491a.995.995 0 0 0-1.109 0l-3.904 2.603 1.05-4.546a1 1 0 0 0-.276-.94l-3.038-2.962 4.09-.326z" />
+            </svg>
+          </div>
+          <h4 class="resume__item__title ml__1rem">Habilidades</h4>
+        </header>
+        <div class="resume__item__body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, alias dolores quae, fuga magnam quia
+            repudiandae
+            debitis, maiores quibusdam laboriosam error voluptas provident dicta autem deleniti rerum eveniet blanditiis
+            placeat?</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, amet natus? Aliquam eum praesentium
+            excepturi facere vitae cumque minus necessitatibus!</p>
+        </div>
+      </article>
+      <article class="resume__item">
+        <header class="resume__item__header flex__container flex__align__items__center">
+          <div class="resume__item__icon__wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 24 24" width="22" fill="#2DFF2C">
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M20.5 6c-2.61.7-5.67 1-8.5 1s-5.89-.3-8.5-1L3 8c1.86.5 4 .83 6 1v13h2v-6h2v6h2V9c2-.17 4.14-.5 6-1l-.5-2zM12 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z" />
+            </svg>
+          </div>
+          <h4 class="resume__item__title ml__1rem">Trabalho Voluntário</h4>
+        </header>
+        <div class="resume__item__body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, alias dolores quae, fuga magnam quia
+            repudiandae
+            debitis, maiores quibusdam laboriosam error voluptas provident dicta autem deleniti rerum eveniet blanditiis
+            placeat?</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, amet natus? Aliquam eum praesentium
+            excepturi facere vitae cumque minus necessitatibus!</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<!--#resume-->
 
 
 <?php get_footer(); ?>

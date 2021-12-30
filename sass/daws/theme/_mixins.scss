@@ -1,6 +1,6 @@
 /*nav*/
 @mixin nav-link($color: --color-gray-light, $font-size: 0.875rem){
-  color: var(--color-gray-light);
+  color: var($color);
   font-size: $font-size;
 }
 
@@ -49,10 +49,25 @@
   align-items: center;
 }
 
-@mixin line($width: 100px, $height: 2px, $background-color: --color-primary){
+@mixin flex-y-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@mixin line($width: 6.25rem, $height: 0.125rem, $background-color: --color-primary){
   width: $width;
   height: $height;
   background-color: var($background-color);
+}
+
+@mixin circle($size: 2.25rem){
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 

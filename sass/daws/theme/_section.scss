@@ -1,19 +1,18 @@
 /*hero*/
 .hero {
-  &__wrapper{
+  &__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  &__title{
+  &__title {
     @include main-title;
   }
-  &__desc{
+  &__desc {
     @include hero-desc;
   }
-  &__img{
-    border-radius: 50%;
-    &__wrapper{
+  &__img {
+    &__wrapper {
       width: 7.875rem;
       height: 7.875rem;
       background-color: var(--color-white);
@@ -22,6 +21,52 @@
     }
   }
 }
-  
-
-
+/*resume*/
+.resume {
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title{
+    @include secondary-title(1.25rem, --font-medium, --color-secondary, none, normal);
+    line-height: 1.5;
+  }
+  &__subtitle{
+    @include tertiary-title(1.125rem, --font-medium, --color-primary-medium, none, normal);
+  }
+  &__contact{
+    &__link{
+      @include nav-link(--color-secondary);
+      @include flex-y-center;
+      &__desc{
+        width: 80%;
+      }
+    }
+    &__icon{
+      &__wrapper{
+        @include circle(2rem);
+        background-color: var(--color-secondary);
+      }
+    }
+  }
+  &__item{
+    &__icon{
+      &__wrapper{
+        @include circle(2.25rem);
+        background-color: var(--color-secondary);
+      }
+    }
+    &__title{
+      margin-bottom: 0;
+      font-weight: var(--font-medium);
+      line-height: 1.3;
+      font-size: 1.25rem;
+    }
+    &__body{
+      border-left: 0.065rem solid var(--color-secondary);
+      padding: 0.5rem 0 0.5rem 2rem;
+      margin-left: 1.125rem;
+    }
+  }
+}
