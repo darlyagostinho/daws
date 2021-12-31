@@ -12,10 +12,12 @@ h3{
   @include tertiary-title;
 }
 
-a,
-a:hover{
+a{
   text-decoration: none;
   color: var(--color-secondary);
+  &:hover{
+    color: var(--color-primary);
+  }
 }
 
 ul{

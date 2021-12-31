@@ -1,5 +1,5 @@
 /*nav*/
-@mixin nav-link($color: --color-light-gray, $font-size: 0.875rem){
+@mixin nav-link($color: --color-gray-light, $font-size: 0.875rem){
   color: var($color);
   font-size: $font-size;
 }

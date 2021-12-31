@@ -44,7 +44,7 @@
     }
   }
   &__icon {
-    fill: var(--color-light-gray);
+    fill: var(--color-gray-light);
     &.active {
       fill: var(--color-primary);
     }
@@ -81,16 +81,16 @@
     margin: 1rem 0;
   }
   &__desc {
-    color: var(--color-medium-gray);
+    color: var(--color-gray-medium);
   }
   &__link {
-    @include nav-link(--color-medium-gray);
+    @include nav-link(--color-gray-medium);
     &:hover{
       color: var(--color-primary);
     }
   }
   &__icon {
-    fill: var(--color-medium-gray);
+    fill: var(--color-gray-medium);
     &:hover{
       fill: var(--color-primary);
     }
