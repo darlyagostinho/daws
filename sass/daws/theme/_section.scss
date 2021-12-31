@@ -67,6 +67,28 @@
     }
   }
 }
+/*about*/
+.about{
+  &__body{
+    @media (min-width: 48rem/*768px*/) {
+      flex-direction: row-reverse;
+      margin-top: 1.5rem;
+      align-items: center;
+    }
+  }
+  &__content{
+    padding: 2.5rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    @media (min-width: 64rem/*1024px*/) {
+      border-top-left-radius: initial;
+      border-bottom-right-radius: 0.25rem;
+      margin-top: 0;
+    }
+    
+  }
+}
+
 /*resume*/
 .resume {
   &__header {
