@@ -59,6 +59,11 @@
         background-color: var(--color-primary);
       }
     }
+    &__list{
+      @media (min-width: 64rem/*1024px*/) {
+        margin-top: 1rem;
+      }
+    }
   }
 }
 

@@ -1,23 +1,69 @@
 /*hero*/
 .hero {
+  @media (min-width: 64rem/*1024px*/) {
+    height: 100vh;
+    background-image: url("https://darlyagostinho.com/wp-content/uploads/2021/12/hero-bg-scaled.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 50%;
+  }
   &__wrapper {
+    @media (min-width: 64rem/*1024px*/) {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      width: 30%;
+      height: 70vh;
+    }
+  }
+  &__content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (min-width: 64rem/*1024px*/) {
+      align-items: initial;
+    }
   }
   &__title {
     @include main-title;
+    @media (min-width: 64rem/*1024px*/) {
+      font-size: 3rem;
+    }
   }
   &__desc {
     @include hero-desc;
+    @media (min-width: 64rem/*1024px*/) {
+      font-size: 1.5rem;
+    }
   }
   &__img {
     &__wrapper {
       width: 7.875rem;
-      height: 7.875rem;
-      background-color: var(--color-white);
-      border-radius: 50%;
-      @include flex-xy-center;
+      position: relative;
+      z-index: 1;
+      &::before {
+        content: "";
+        background-color: white;
+        width: 8.25rem;
+        height: 8.25rem;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+      }
+      @media (min-width: 64rem/*1024px*/) {
+        display: none;
+      }
+    }
+  }
+  &__nav {
+    &__list {
+      @media (min-width: 64rem/*1024px*/) {
+        display: flex;
+        justify-content: space-between;
+      }
     }
   }
 }
@@ -28,78 +74,95 @@
     flex-direction: column;
     align-items: center;
   }
-  &__title{
-    @include secondary-title(1.25rem, --font-medium, --color-secondary, none, normal);
+  &__title {
+    @include secondary-title(
+      1.25rem,
+      --font-medium,
+      --color-secondary,
+      none,
+      normal
+    );
     line-height: 1.5;
   }
-  &__subtitle{
-    @include tertiary-title(1.125rem, --font-medium, --color-primary-medium, none, normal);
+  &__subtitle {
+    @include tertiary-title(
+      1.125rem,
+      --font-medium,
+      --color-primary-medium,
+      none,
+      normal
+    );
   }
-  &__contact{
-    &__link{
+  &__contact {
+    &__link {
       @include nav-link(--color-secondary);
       @include flex-y-center;
-      &:hover{
+      &:hover {
         color: var(--color-primary-medium);
       }
-      &__desc{
+      &__desc {
         width: 80%;
       }
     }
-    &__icon{
-      &__wrapper{
+    &__icon {
+      &__wrapper {
         @include circle(2rem);
         background-color: var(--color-secondary);
       }
     }
   }
-  &__item{
-    &__icon{
-      &__wrapper{
+  &__item {
+    &__icon {
+      &__wrapper {
         @include circle(2.25rem);
         background-color: var(--color-secondary);
       }
     }
-    &__title{
+    &__title {
       margin-bottom: 0;
       font-weight: var(--font-medium);
       line-height: 1.3;
       font-size: 1.25rem;
     }
-    &__body{
+    &__body {
       border-left: 0.065rem solid var(--color-secondary);
       padding: 0.5rem 0 0.5rem 2rem;
       margin-left: 1.125rem;
     }
   }
+  &__img {
+    &__wrapper {
+      width: 7.875rem;
+    }
+  }
 }
 /*portfolio*/
-.portfolio{
-  &__item{
-    &__img{
+.portfolio {
+  &__item {
+    &__img {
       border-radius: 0.25rem;
       box-shadow: 0 0.25rem 0.25rem rgb(0 0 0 / 25%);
     }
-    &__title{
+    &__title {
       color: var(--color-secondary);
       font-size: 1.125rem;
       font-weight: var(--font-medium);
-      &:hover{
+      &:hover {
         color: inherit;
       }
     }
-    &__category{
+    &__category {
       color: var(--color-primary-medium);
       font-size: 0.625rem;
       text-transform: uppercase;
       letter-spacing: 0.035rem;
     }
-    &__link{
-      &:hover{
+    &__link {
+      &:hover {
         color: var(--color-secondary-medium);
       }
     }
-    &__business{
+    &__business {
       font-size: 0.75rem;
     }
   }
