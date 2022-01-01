@@ -99,6 +99,15 @@ get_header();
           <li class="nav__item py__1rem">
             <a href="#" class="nav__link">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="nav__icon">
+                <path d="m12 16 4-5h-3V4h-2v7H8z"/>
+                <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7z" />
+              </svg>
+              <span class="ml__half__rem">Baixar Currículo</span>
+            </a>
+          </li>
+          <li class="nav__item py__1rem">
+            <a href="#" class="nav__link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="nav__icon">
                 <path
                   d="M20 3H4c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2zM4 19V5h7v14H4zm9 0V5h7l.001 14H13z" />
                 <path d="M15 7h3v2h-3zm0 4h3v2h-3z" />
@@ -144,24 +153,24 @@ get_header();
 <!--resume-->
 <section id="resume" class="py__2rem">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-2 resume__img__wrapper">
+    <div class="resume__header row">
+      <div class="resume__img__wrapper col-lg-2 ">
         <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/resume-photo.jpg" alt="Foto Darly Agostinho"
           class="rounded img__responsive">
       </div>
-      <div class="col-lg-9 resume__title__wrapper">
+      <div class="resume__title__wrapper col-lg-9">
         <h2 class="resume__title mt__2rem mb__0">Darly Cesar Marcelino Agostinho</h2>
         <h3 class="resume__subtitle mt__half__rem mb__0">Desenvolvedor Web Fullstack</h3>
       </div>
-      <div class="col-lg-1 pt__1rem btn__download__wrapper">
-        <button type="button" class="btn__download">
+      <div class="btn__download__wrapper col-lg-1 pt__1rem">
+        <button type="button" class="btn__download" title="Baixar Currículo">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
             <path d="m12 16 4-5h-3V4h-2v7H8z" />
             <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7z" />
           </svg>
         </button>
       </div>
-      <ul class="offset-lg-2 col-lg-10 resume__contact__list mt__1-5rem">
+      <ul class="resume__contact__list offset-lg-2 col-lg-10 mt__1-5rem">
         <li class="resume__contact__item mt__1rem">
           <a href="#" class="resume__contact__link">
             <div class="resume__contact__icon__wrapper">
@@ -338,10 +347,10 @@ get_header();
       <h3 class="portfolio__subtitle mt__half__rem">Trabalhos Recentes</h3>
     </header>
     <div class="row">
-      <div class="col-lg-4 mt__2rem">
+      <div class="col-lg-3 mt__2rem">
         <a href="#" class="portfolio__item__link">
           <div class="portfolio__item__img__wrapper">
-            <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/eliz-rabelo-dreams-capa.png"
+            <img src="https://darlyagostinho.com/wp-content/uploads/2022/01/Eliz-Rabelo-Dreams.jpg"
               alt="Capa Site Eliz Rabelo Dreams" class="img__responsive portfolio__item__img">
           </div>
           <div class="portfolio__item__info mt__1rem">
@@ -351,10 +360,10 @@ get_header();
           </div>
         </a>
       </div>
-      <div class="col-lg-4 mt__2rem">
+      <div class="col-lg-3 mt__2rem">
         <a href="#" class="portfolio__item__link">
           <div class="portfolio__item__img__wrapper">
-            <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/petiscos-e-cia-capa.png"
+            <img src="https://darlyagostinho.com/wp-content/uploads/2022/01/petiscos-cia-capa.jpg"
               alt="Capa Site Petiscos e Cia" class="img__responsive portfolio__item__img">
           </div>
           <div class="portfolio__item__info mt__1rem">
@@ -364,10 +373,10 @@ get_header();
           </div>
         </a>
       </div>
-      <div class="col-lg-4 mt__2rem">
+      <div class="col-lg-3 mt__2rem">
         <a href="#" class="portfolio__item__link">
           <div class="portfolio__item__img__wrapper">
-            <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/master-protecao-veicular-capa.png"
+            <img src="https://darlyagostinho.com/wp-content/uploads/2022/01/master-protecao-veicular-capa.jpg"
               alt="Capa Site Master Proteção Veicular" class="img__responsive portfolio__item__img">
           </div>
           <div class="portfolio__item__info mt__1rem">
@@ -377,7 +386,7 @@ get_header();
           </div>
         </a>
       </div>
-      <div class="col-lg-4 mt__2rem">
+      <div class="col-lg-3 mt__2rem">
         <a href="#" class="portfolio__item__link">
           <div class="portfolio__item__img__wrapper">
             <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/hellinger-capa.png"
@@ -390,10 +399,10 @@ get_header();
           </div>
         </a>
       </div>
-      <div class="col-lg-4 mt__2rem">
+      <div class="col-lg-3 mt__2rem">
         <a href="#" class="portfolio__item__link">
           <div class="portfolio__item__img__wrapper">
-            <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/reataxi-capa.png"
+            <img src="https://darlyagostinho.com/wp-content/uploads/2022/01/reataxi-capa.jpg"
               alt="Capa Site Rea Taxi SP" class="img__responsive portfolio__item__img">
           </div>
           <div class="portfolio__item__info mt__1rem">
