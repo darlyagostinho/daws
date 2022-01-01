@@ -144,53 +144,63 @@ get_header();
 <!--resume-->
 <section id="resume" class="py__2rem">
   <div class="container">
-    <div class="resume__header">
-      <div class="resume__img__wrapper">
+    <div class="row">
+      <div class="col-lg-2 resume__img__wrapper">
         <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/resume-photo.jpg" alt="Foto Darly Agostinho"
           class="rounded img__responsive">
       </div>
-      <h2 class="resume__title mt__2rem mb__0">Darly Cesar Marcelino Agostinho</h2>
-      <h3 class="resume__subtitle mt__half__rem mb__0">Desenvolvedor Web Fullstack</h3>
+      <div class="col-lg-9 resume__title__wrapper">
+        <h2 class="resume__title mt__2rem mb__0">Darly Cesar Marcelino Agostinho</h2>
+        <h3 class="resume__subtitle mt__half__rem mb__0">Desenvolvedor Web Fullstack</h3>
+      </div>
+      <div class="col-lg-1 pt__1rem btn__download__wrapper">
+        <button type="button" class="btn__download">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="m12 16 4-5h-3V4h-2v7H8z" />
+            <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7z" />
+          </svg>
+        </button>
+      </div>
+      <ul class="offset-lg-2 col-lg-10 resume__contact__list mt__1-5rem">
+        <li class="resume__contact__item mt__1rem">
+          <a href="#" class="resume__contact__link">
+            <div class="resume__contact__icon__wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#fff">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M18.403 5.633A8.919 8.919 0 0 0 12.053 3c-4.948 0-8.976 4.027-8.978 8.977 0 1.582.413 3.126 1.198 4.488L3 21.116l4.759-1.249a8.981 8.981 0 0 0 4.29 1.093h.004c4.947 0 8.975-4.027 8.977-8.977a8.926 8.926 0 0 0-2.627-6.35m-6.35 13.812h-.003a7.446 7.446 0 0 1-3.798-1.041l-.272-.162-2.824.741.753-2.753-.177-.282a7.448 7.448 0 0 1-1.141-3.971c.002-4.114 3.349-7.461 7.465-7.461a7.413 7.413 0 0 1 5.275 2.188 7.42 7.42 0 0 1 2.183 5.279c-.002 4.114-3.349 7.462-7.461 7.462m4.093-5.589c-.225-.113-1.327-.655-1.533-.73-.205-.075-.354-.112-.504.112s-.58.729-.711.879-.262.168-.486.056-.947-.349-1.804-1.113c-.667-.595-1.117-1.329-1.248-1.554s-.014-.346.099-.458c.101-.1.224-.262.336-.393.112-.131.149-.224.224-.374s.038-.281-.019-.393c-.056-.113-.505-1.217-.692-1.666-.181-.435-.366-.377-.504-.383a9.65 9.65 0 0 0-.429-.008.826.826 0 0 0-.599.28c-.206.225-.785.767-.785 1.871s.804 2.171.916 2.321c.112.15 1.582 2.415 3.832 3.387.536.231.954.369 1.279.473.537.171 1.026.146 1.413.089.431-.064 1.327-.542 1.514-1.066.187-.524.187-.973.131-1.067-.056-.094-.207-.151-.43-.263" />
+              </svg>
+            </div>
+            <span class="ml__half__rem">(62) 98274-1818</span>
+          </a>
+        </li>
+        <li class="resume__contact__item mt__1rem"><a href="#" class="resume__contact__link">
+            <div class="resume__contact__icon__wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#fff">
+                <path
+                  d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z" />
+              </svg>
+            </div>
+            <span class="ml__half__rem">darlyagostinho@gmail.com</span>
+          </a>
+        </li>
+        <li class="resume__contact__item mt__1rem">
+          <a href="#" class="resume__contact__link">
+            <div class="resume__contact__icon__wrapper">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M3.73719 5.39775C4.64349 5.39775 5.37819 4.66305 5.37819 3.75675C5.37819 2.85045 4.64349 2.11575 3.73719 2.11575C2.83089 2.11575 2.09619 2.85045 2.09619 3.75675C2.09619 4.66305 2.83089 5.39775 3.73719 5.39775Z"
+                  fill="#fff" />
+                <path
+                  d="M6.92779 6.64126V15.7455H9.75454V11.2433C9.75454 10.0553 9.97804 8.90476 11.451 8.90476C12.9038 8.90476 12.9218 10.263 12.9218 11.3183V15.7463H15.75V10.7535C15.75 8.30101 15.222 6.41626 12.3555 6.41626C10.9793 6.41626 10.0568 7.17151 9.67954 7.88626H9.64129V6.64126H6.92779ZM2.32129 6.64126H5.15254V15.7455H2.32129V6.64126Z"
+                  fill="#fff" />
+              </svg>
+            </div>
+            <span
+              class="ml__half__rem resume__contact__link__desc">https://www.linkedin.com/in/darly-agostinho-45682722/</span>
+          </a>
+        </li>
+      </ul>
     </div>
-    <ul class="resume__contact__list mt__1-5rem">
-      <li class="resume__contact__item mt__1rem">
-        <a href="#" class="resume__contact__link">
-          <div class="resume__contact__icon__wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#fff">
-              <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M18.403 5.633A8.919 8.919 0 0 0 12.053 3c-4.948 0-8.976 4.027-8.978 8.977 0 1.582.413 3.126 1.198 4.488L3 21.116l4.759-1.249a8.981 8.981 0 0 0 4.29 1.093h.004c4.947 0 8.975-4.027 8.977-8.977a8.926 8.926 0 0 0-2.627-6.35m-6.35 13.812h-.003a7.446 7.446 0 0 1-3.798-1.041l-.272-.162-2.824.741.753-2.753-.177-.282a7.448 7.448 0 0 1-1.141-3.971c.002-4.114 3.349-7.461 7.465-7.461a7.413 7.413 0 0 1 5.275 2.188 7.42 7.42 0 0 1 2.183 5.279c-.002 4.114-3.349 7.462-7.461 7.462m4.093-5.589c-.225-.113-1.327-.655-1.533-.73-.205-.075-.354-.112-.504.112s-.58.729-.711.879-.262.168-.486.056-.947-.349-1.804-1.113c-.667-.595-1.117-1.329-1.248-1.554s-.014-.346.099-.458c.101-.1.224-.262.336-.393.112-.131.149-.224.224-.374s.038-.281-.019-.393c-.056-.113-.505-1.217-.692-1.666-.181-.435-.366-.377-.504-.383a9.65 9.65 0 0 0-.429-.008.826.826 0 0 0-.599.28c-.206.225-.785.767-.785 1.871s.804 2.171.916 2.321c.112.15 1.582 2.415 3.832 3.387.536.231.954.369 1.279.473.537.171 1.026.146 1.413.089.431-.064 1.327-.542 1.514-1.066.187-.524.187-.973.131-1.067-.056-.094-.207-.151-.43-.263" />
-            </svg>
-          </div>
-          <span class="ml__half__rem">(62) 98274-1818</span>
-        </a>
-      </li>
-      <li class="resume__contact__item mt__1rem"><a href="#" class="resume__contact__link">
-          <div class="resume__contact__icon__wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#fff">
-              <path
-                d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z" />
-            </svg>
-          </div>
-          <span class="ml__half__rem">darlyagostinho@gmail.com</span>
-        </a>
-      </li>
-      <li class="resume__contact__item mt__1rem">
-        <a href="#" class="resume__contact__link">
-          <div class="resume__contact__icon__wrapper">
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M3.73719 5.39775C4.64349 5.39775 5.37819 4.66305 5.37819 3.75675C5.37819 2.85045 4.64349 2.11575 3.73719 2.11575C2.83089 2.11575 2.09619 2.85045 2.09619 3.75675C2.09619 4.66305 2.83089 5.39775 3.73719 5.39775Z"
-                fill="#fff" />
-              <path
-                d="M6.92779 6.64126V15.7455H9.75454V11.2433C9.75454 10.0553 9.97804 8.90476 11.451 8.90476C12.9038 8.90476 12.9218 10.263 12.9218 11.3183V15.7463H15.75V10.7535C15.75 8.30101 15.222 6.41626 12.3555 6.41626C10.9793 6.41626 10.0568 7.17151 9.67954 7.88626H9.64129V6.64126H6.92779ZM2.32129 6.64126H5.15254V15.7455H2.32129V6.64126Z"
-                fill="#fff" />
-            </svg>
-          </div>
-          <span
-            class="ml__half__rem resume__contact__link__desc">https://www.linkedin.com/in/darly-agostinho-45682722/</span>
-        </a>
-      </li>
-    </ul>
     <div class="resume__body mt__2rem">
       <article class="resume__item">
         <header class="resume__item__header flex__container flex__align__items__center">

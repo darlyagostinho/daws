@@ -95,6 +95,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (min-width: 64rem/*1024px*/) {
+      flex-direction: row;
+      align-items: initial;
+      margin-top: 0;
+    }
   }
   &__title {
     @include secondary-title(
@@ -105,6 +110,18 @@
       normal
     );
     line-height: 1.5;
+    @media (min-width: 48rem/*768px*/) {
+      font-size: 2.625rem;
+    }
+    @media (min-width: 64rem/*1024px*/) {
+      margin-top: 0;
+    }
+    &__wrapper{
+      text-align: center;
+      @media (min-width: 64rem/*1024px*/) {
+        text-align: initial;
+      }
+    }
   }
   &__subtitle {
     @include tertiary-title(
@@ -114,6 +131,12 @@
       none,
       normal
     );
+    @media (min-width: 48rem/*768px*/) {
+      font-size: 1.75rem;
+    }
+    @media (min-width: 64rem/*1024px*/) {
+      font-weight: var(--font-regular);
+    }
   }
   &__contact {
     &__link {
@@ -122,14 +145,31 @@
       &:hover {
         color: var(--color-primary-medium);
       }
+      @media (min-width: 48rem/*768px*/) {
+        font-size: 1rem;
+      }
+      @media (min-width: 64rem/*1024px*/) {
+        font-size: 0.875rem;
+      }
       &__desc {
         width: 80%;
+        @media (min-width: 64rem/*1024px*/) {
+          width: initial;
+        }
       }
     }
     &__icon {
       &__wrapper {
         @include circle(2rem);
         background-color: var(--color-secondary);
+      }
+    }
+    &__list{
+      @media (min-width: 64rem/*1024px*/) {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0;
+        margin-left: 7.875rem;
       }
     }
   }
@@ -155,6 +195,14 @@
   &__img {
     &__wrapper {
       width: 7.875rem;
+      margin: 0 auto;
+      @media (min-width: 48rem/*768px*/) {
+        width: 12.5rem;
+      }
+      @media (min-width: 64rem/*1024px*/) {
+        width: 7.875rem;
+        margin: initial;
+      }
     }
   }
 }
