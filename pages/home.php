@@ -348,9 +348,9 @@ get_header();
     </header>
     <div class="row">
       <div class="col-lg-3 mt__2rem">
-        <a href="#" class="portfolio__item__link">
+        <a href="https://erdreams.darlyagostinho.com/" class="portfolio__item__link" target="_blank" rel="noopener">
           <div class="portfolio__item__img__wrapper">
-            <img src="https://darlyagostinho.com/wp-content/uploads/2022/01/Eliz-Rabelo-Dreams.jpg"
+            <img src="https://darlyagostinho.com/wp-content/uploads/2022/01/eliz-rabelo-dreams.jpg"
               alt="Capa Site Eliz Rabelo Dreams" class="img__responsive portfolio__item__img">
           </div>
           <div class="portfolio__item__info mt__1rem">
@@ -361,7 +361,7 @@ get_header();
         </a>
       </div>
       <div class="col-lg-3 mt__2rem">
-        <a href="#" class="portfolio__item__link">
+        <a href="#" class="portfolio__item__link" target="_blank" rel="noopener">
           <div class="portfolio__item__img__wrapper">
             <img src="https://darlyagostinho.com/wp-content/uploads/2022/01/petiscos-cia-capa.jpg"
               alt="Capa Site Petiscos e Cia" class="img__responsive portfolio__item__img">
@@ -374,7 +374,7 @@ get_header();
         </a>
       </div>
       <div class="col-lg-3 mt__2rem">
-        <a href="#" class="portfolio__item__link">
+        <a href="https://master.darlyagostinho.com/" class="portfolio__item__link" target="_blank" rel="noopener">
           <div class="portfolio__item__img__wrapper">
             <img src="https://darlyagostinho.com/wp-content/uploads/2022/01/master-protecao-veicular-capa.jpg"
               alt="Capa Site Master Proteção Veicular" class="img__responsive portfolio__item__img">
@@ -387,9 +387,9 @@ get_header();
         </a>
       </div>
       <div class="col-lg-3 mt__2rem">
-        <a href="#" class="portfolio__item__link">
+        <a href="https://hellinger.darlyagostinho.com/" class="portfolio__item__link" target="_blank" rel="noopener">
           <div class="portfolio__item__img__wrapper">
-            <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/hellinger-capa.png"
+            <img src="https://darlyagostinho.com/wp-content/uploads/2022/01/hellinger-capa.jpg"
               alt="Capa Site Hellinger" class="img__responsive portfolio__item__img">
           </div>
           <div class="portfolio__item__info mt__1rem">
@@ -400,7 +400,7 @@ get_header();
         </a>
       </div>
       <div class="col-lg-3 mt__2rem">
-        <a href="#" class="portfolio__item__link">
+        <a href="https://reataxi.darlyagostinho.com/" class="portfolio__item__link" target="_blank" rel="noopener">
           <div class="portfolio__item__img__wrapper">
             <img src="https://darlyagostinho.com/wp-content/uploads/2022/01/reataxi-capa.jpg"
               alt="Capa Site Rea Taxi SP" class="img__responsive portfolio__item__img">
@@ -416,6 +416,5 @@ get_header();
   </div>
 </section>
 <!--#portfolio-->
-
 
 <?php get_footer(); ?>

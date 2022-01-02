@@ -87,6 +87,7 @@
   }
   &__desc {
     color: var(--color-gray-medium);
+    line-height: 1.5;
   }
   &__link {
     @include nav-link(--color-gray-medium);
