@@ -99,7 +99,7 @@ get_header();
           <li class="nav__item py__1rem">
             <a href="#" class="nav__link">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="nav__icon">
-                <path d="m12 16 4-5h-3V4h-2v7H8z"/>
+                <path d="m12 16 4-5h-3V4h-2v7H8z" />
                 <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7z" />
               </svg>
               <span class="ml__half__rem">Baixar Currículo</span>
@@ -123,26 +123,65 @@ get_header();
 <!--#hero-->
 
 <!--about-->
-<section id="about" class="bg__light py__2rem">
+<section id="about" class="about bg__light py__2rem">
   <div class="container">
     <header class="about__header">
       <div class="about__title flex__container flex__align__items__center">
-        <h2 class="about__title m__0">Sobre</h2>
+        <h2 class="about__primary__title m__0">Sobre</h2>
         <div class="line ml__half__rem"></div>
       </div>
-      <h3 class="about__subtitle mt__half__rem">Minha Trajetória</h3>
+      <h3 class="about__secondary__title mt__half__rem">Minha Trajetória</h3>
     </header>
-    <div class="row g-0 about__body">
-      <div class="col-lg-8 about__content bg__white mt__half__rem">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa, inventore id minus rerum ducimus
-          molestiae saepe! Commodi, ea aperiam.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa, inventore id minus rerum ducimus
-          molestiae saepe! Commodi, ea aperiam.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa, inventore id minus rerum ducimus
-          molestiae saepe! Commodi, ea aperiam.</p>
-      </div>
-      <div class="col-lg-4 about__img__wrapper">
+
+    <div class="row g-0 about__item reverse">
+      <article class="col-lg-7 about__content bg__white mt__half__rem">
+        <h4 class="about__tertiary__title">Experiência</h4>
+        <p>Tenho mais de 10 anos de experiência na área de Tecnologia e sou Bacharel em Sistemas de Informação desde
+          2013. Iniciei os meus estudos aos 12 anos fazendo cursos voltados para a área de informática (hardware e
+          software)
+          e ao longo dos anos trabalhei em empresas de Marketing, Criação de Software Web/Desktop, Análise/Otimização de
+          Banco de Dados, Ponto Eletrônico além de ministrar treinamentos para clientes, equipes e colegas de trabalho.
+        </p>
+        <p>Em 2018 eu abri a minha empresa e tenho atuado em duas vertentes: Desenvolvimento Web e Aulas Particulares de
+          Programação.</p>
+      </article>
+      <div class="col-lg-5 about__img__wrapper mb__2rem">
         <img src="https://darlyagostinho.com/wp-content/uploads/2021/12/about.jpg"
+          alt="Foto Darly Agostinho Trabalhando com o Notebook" class="img__responsive">
+      </div>
+    </div>
+
+    <div class="row g-0 about__item">
+      <article class="col-lg-7 about__content bg__white mt__half__rem">
+        <h4 class="about__tertiary__title">Desenvolvimento Web</h4>
+        <div class="color__primary__medium mb__half__rem fw__medium">Criação de Sites, Sistemas e Lojas Virtuais</div>
+        <p>Crio Sites, Sistemas e Lojas Virtuais realizando o Briefing, Web Design, Frontend, Backend, Versionamento e
+          Treinamento. Utilizo no dia a dia Figma, Apache, PHP, MySQL, WordPress, Git, Github, HTML, CSS, SASS,
+          Bootstrap, Javascript e NodeJs para automatização de tarefas na geração de tema WordPress personalizado
+          compatível com WooCommerce. Tudo o que desenvolvo segue boas práticas de programação, padrões Web, minificação
+          de arquivos CSS e JS e recomendações como PSR (PHP) e padrões recomendados pelas equipes do WordPress e
+          WooCommerce.
+
+        </p>
+      </article>
+      <div class="col-lg-5 about__img__wrapper">
+        <img src="https://darlyagostinho.com/wp-content/uploads/2022/01/about-03.jpg"
+          alt="Foto Darly Agostinho Trabalhando com o Notebook" class="img__responsive">
+      </div>
+    </div>
+
+    <div class="row g-0 about__item reverse">
+      <article class="col-lg-7 about__content bg__white mt__half__rem">
+        <h4>Aulas Particulares de Programação</h4>
+        <p>Ministro aulas de programação particulares onde ensino HTML, CSS, Javascript, Padrões Web, PHP e MySQL para
+          todos os níveis: do iniciante ao avançado. Nas aulas de frontend eu ensino noções de Web Design, HTML
+          Semântico e Design Responsivo sem a utilização de frameworks. Nas aulas de PHP após entendermos o
+          essencial da linguagem, desenvolvo um projeto utilizando o padrão MVC, PHP Orientado a Objetos e Design
+          Patterns.
+        </p>
+      </article>
+      <div class="col-lg-5 about__img__wrapper">
+        <img src="https://darlyagostinho.com/wp-content/uploads/2022/01/about-02.jpg"
           alt="Foto Darly Agostinho Trabalhando com o Notebook" class="img__responsive">
       </div>
     </div>
@@ -223,10 +262,8 @@ get_header();
           <h4 class="resume__item__title ml__1rem">Resumo</h4>
         </header>
         <div class="resume__item__body">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, alias dolores quae, fuga magnam quia
-            repudiandae
-            debitis, maiores quibusdam laboriosam error voluptas provident dicta autem deleniti rerum eveniet blanditiis
-            placeat?</p>
+          <p>Tenho mais de 10 anos de experiência na área de Tecnologia e sou Bacharel em Sistemas de Informação desde
+            2013. </p>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, amet natus? Aliquam eum praesentium
             excepturi facere vitae cumque minus necessitatibus!</p>
         </div>
@@ -243,12 +280,52 @@ get_header();
           <h4 class="resume__item__title ml__1rem">Experiência</h4>
         </header>
         <div class="resume__item__body">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, alias dolores quae, fuga magnam quia
-            repudiandae
-            debitis, maiores quibusdam laboriosam error voluptas provident dicta autem deleniti rerum eveniet blanditiis
-            placeat?</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, amet natus? Aliquam eum praesentium
-            excepturi facere vitae cumque minus necessitatibus!</p>
+          <h5 class="resume__item__subtitle">Consultor Técnico Pleno</h5>
+          <div class="resume__item__company">Ágili Software Brasil</div>
+          <div class="resume__item__period">Março de 2015 - Dezembro de 2017 - 2 anos 10 meses</div>
+          <div class="resume__item__city">Goiânia - GO</div>
+          <ul class="resume__item__list">
+            <li>- Consultoria técnica para sistemas Financeiro, Patrimonial, Saúde, Protocolo, Licitação, Educação, RH,
+              prestação de contas contábil e folha de pagamento para os tribunais de contas dos estados de Goiás e Minas
+              Gerais;</li>
+            <li>- Implantação de sistemas para a área pública e treinamento para os clientes;</li>
+            <li>- Visita bate-porta nas prefeituras de cidades goianas para demonstração de sistemas para área pública e
+              negociação de propostas.</li>
+          </ul>
+
+          <h5 class="resume__item__subtitle">Programador de Sistemas de Informação</h5>
+          <div class="resume__item__company">Globaltec S/A</div>
+          <div class="resume__item__period">Setembro de 2014 - Dezembro de 2014 - 3 meses</div>
+          <div class="resume__item__city">Goiânia - GO</div>
+          <ul class="resume__item__list">
+            <li>- Desenvolvimento de projetos em VB6 e VB.NET para os módulos de suprimentos e obras do ERP UAU;</li>
+            <li>- Documentação dos projetos no TFS;</li>
+            <li>- Publicação das alterações realizadas no portal web.</li>
+          </ul>
+
+          <h5 class="resume__item__subtitle">Analista DBM/BI</h5>
+          <div class="resume__item__company">MarketData</div>
+          <div class="resume__item__period">Junho de 2012 - Junho de 2014 - 2 anos</div>
+          <div class="resume__item__city">São Paulo - SP</div>
+          <ul class="resume__item__list">
+            <li>- Automatização, desenvolvimento e documentação de processos de carga, extração, enriquecimento e homologação de dados utilizando os bancos de dados SQL Server, Oracle e SAS;</li>
+            <li>- Análise do resultado de retornos de campanhas e geração de relatórios;</li>
+            <li>- Desenvolvimento de procedures, views, functions, triggers e packages;</li>
+            <li>- Deduplicação, higienização e padronização dos dados para Brasil, México e CALA;</li>
+            <li>- Manutenção dos cubos de vendas e portais analíticos.</li>
+          </ul>
+
+          <h5 class="resume__item__subtitle">Técnico Suporte II</h5>
+          <div class="resume__item__company">Telemática Sistemas Inteligentes</div>
+          <div class="resume__item__period">Fevereiro de 2006 - Fevereiro de 2012 - 6 anos</div>
+          <div class="resume__item__city">São Paulo - SP</div>
+          <ul class="resume__item__list">
+            <li>- Implantação e manutenção em sistemas de controle de acesso (catracas, torniquetes, cancelas, portas de acesso com biometria digital e facial, cartões com tecnologias diversas (código de barras, proximidade e smart), sistemas de CFTV e ponto eletrônico).;</li>
+            <li>- Treinamento operacional e suporte técnico para clientes;</li>
+            <li>- Desenvolvimento de procedures, views, functions, triggers e packages;</li>
+            <li>- Liderança de equipes técnicas.</li>
+          </ul>
+
         </div>
       </article>
       <article class="resume__item">
@@ -263,12 +340,16 @@ get_header();
           <h4 class="resume__item__title ml__1rem">Formação Acadêmica</h4>
         </header>
         <div class="resume__item__body">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, alias dolores quae, fuga magnam quia
-            repudiandae
-            debitis, maiores quibusdam laboriosam error voluptas provident dicta autem deleniti rerum eveniet blanditiis
-            placeat?</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, amet natus? Aliquam eum praesentium
-            excepturi facere vitae cumque minus necessitatibus!</p>
+        <h5 class="resume__item__subtitle">Universidade Paulista</h5>
+          <div class="resume__item__company">Bacharel em Sistemas de Informação</div>
+          <div class="resume__item__period">2009-2013</div>
+          <div class="resume__item__city">São Paulo - SP</div>
+
+          <h5 class="resume__item__subtitle mt__2rem">ETEC Albert Einstein</h5>
+          <div class="resume__item__company">Técnico em Eletrônica</div>
+          <div class="resume__item__period">2000-2002</div>
+          <div class="resume__item__city">São Paulo - SP</div>
+
         </div>
       </article>
       <article class="resume__item">
@@ -361,7 +442,7 @@ get_header();
         </a>
       </div>
       <div class="col-lg-3 mt__2rem">
-        <a href="#" class="portfolio__item__link" target="_blank" rel="noopener">
+        <a href="https://petiscosecia.darlyagostinho.com/" class="portfolio__item__link" target="_blank" rel="noopener">
           <div class="portfolio__item__img__wrapper">
             <img src="https://darlyagostinho.com/wp-content/uploads/2022/01/petiscos-cia-capa.jpg"
               alt="Capa Site Petiscos e Cia" class="img__responsive portfolio__item__img">

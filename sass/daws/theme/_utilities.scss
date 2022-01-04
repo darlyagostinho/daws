@@ -231,6 +231,9 @@
 .color {
   &__primary {
     color: var(--color-primary);
+    &__medium{
+      color: var(--color-primary-medium);
+    }
   }
   &__white {
     color: var(--color-white);
@@ -242,6 +245,13 @@
   &__responsive {
     max-width: 100%;
     height: auto;
+  }
+}
+
+/*font*/
+.fw{
+  &__medium{
+    font-weight: var(--font-medium);
   }
 }
 
