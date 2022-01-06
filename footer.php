@@ -130,7 +130,7 @@
             </a>
           </li>
           <li class="footer__item mt__1rem">
-            <a href="https://darlyagostinho.com/wp-content/uploads/2022/01/curriculo-Darly-Agostinho-Teste.pdf"
+            <a href="https://darlyagostinho.com/wp-content/uploads/2022/01/curriculo-darly-agostinho.pdf"
               class="nav__link" download="curriculo-Darly-Agostinho" target="_blank" rel="noopener">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="footer__icon">
                 <path d="m12 16 4-5h-3V4h-2v7H8z" />

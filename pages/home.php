@@ -89,7 +89,7 @@ get_header();
             </a>
           </li>
           <li class="nav__item py__1rem">
-            <a href="https://darlyagostinho.com/wp-content/uploads/2022/01/curriculo-Darly-Agostinho-Teste.pdf"
+            <a href="https://darlyagostinho.com/wp-content/uploads/2022/01/curriculo-darly-agostinho.pdf"
               class="nav__link" download="curriculo-Darly-Agostinho" target="_blank" rel="noopener">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="nav__icon">
                 <path d="m12 16 4-5h-3V4h-2v7H8z" />
@@ -195,7 +195,7 @@ get_header();
         <h3 class="resume__subtitle mt__half__rem mb__0">Desenvolvedor Web Fullstack</h3>
       </div>
       <div class="btn__download__wrapper col-lg-1 pt__1rem">
-        <a href="https://darlyagostinho.com/wp-content/uploads/2022/01/curriculo-Darly-Agostinho-Teste.pdf"
+        <a href="https://darlyagostinho.com/wp-content/uploads/2022/01/curriculo-darly-agostinho.pdf"
           class="nav__link btn__download flex__justify__content__center" download="curriculo-Darly-Agostinho" target="_blank" rel="noopener" title="Baixar Currículo">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
             <path d="m12 16 4-5h-3V4h-2v7H8z" />
@@ -205,7 +205,7 @@ get_header();
       </div>
       <ul class="resume__contact__list offset-lg-2 col-lg-10 mt__1-5rem">
         <li class="resume__contact__item mt__1rem">
-          <a href="#" class="resume__contact__link">
+          <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5562982741818&text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20%20seus%20servi%C3%A7os." class="resume__contact__link" target="_blank" rel="noopener">
             <div class="resume__contact__icon__wrapper">
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#fff">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -215,7 +215,7 @@ get_header();
             <span class="ml__half__rem">(62) 98274-1818</span>
           </a>
         </li>
-        <li class="resume__contact__item mt__1rem"><a href="#" class="resume__contact__link">
+        <li class="resume__contact__item mt__1rem"><a href="mailto:darlyagostinho@gmail.com" class="resume__contact__link" target="_blank" rel="noopener">
             <div class="resume__contact__icon__wrapper">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#fff">
                 <path
@@ -226,7 +226,7 @@ get_header();
           </a>
         </li>
         <li class="resume__contact__item mt__1rem">
-          <a href="#" class="resume__contact__link">
+          <a href="https://www.linkedin.com/in/darly-agostinho-45682722/" class="resume__contact__link" target="_blank" rel="noopener">
             <div class="resume__contact__icon__wrapper">
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -238,7 +238,7 @@ get_header();
               </svg>
             </div>
             <span
-              class="ml__half__rem resume__contact__link__desc">https://www.linkedin.com/in/darly-agostinho-45682722/</span>
+              class="ml__half__rem resume__contact__link__desc">linkedin.com/in/darly-agostinho-45682722/</span>
           </a>
         </li>
       </ul>
@@ -455,7 +455,7 @@ get_header();
           <h4 class="resume__item__title ml__1rem">Trabalho Voluntário</h4>
         </header>
         <div class="resume__item__body">
-          <h5 class="resume__item__subtitle mt__2rem">Mentoria de Alunos em Projeto Web</h5>
+          <h5 class="resume__item__subtitle">Mentoria de Alunos em Projeto Web</h5>
           <div class="resume__item__period">Março 2021 - Dezembro 2021 - 9 meses</div>
           <div class="resume__item__company">Mais 1 Code</div>
           <p class="mt__1rem">É um projeto que visa ensinar os jovens da periferia de todo o Brasil a programar. A
