@@ -40,12 +40,11 @@
         </svg>
       </div>
       <div class="col-lg-4 mb__2rem">
-        <h3 class="footer__title mt__1rem">Sobre</h3>
-        <p class="footer__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima porro numquam magni ea
-          non, dolorum placeat iusto amet officia deserunt.</p>
+        <h3 class="footer__title mt__1rem">Darly Agostinho</h3>
+        <p class="footer__desc">Desenvolvedor Web Fullstack apaixonado por tecnologia e inovação.</p>
         <ul class="social__media__list flex__container mt__2rem">
           <li class="social__media__item mr__1rem">
-            <a href="#" class="social__media__link circle bg__medium__gray ">
+            <a href="https://twitter.com/AgostinhoDarly" class="social__media__link circle bg__medium__gray ">
               <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M13.2247 2.99775C13.2345 3.129 13.2345 3.2595 13.2345 3.39C13.2345 7.38375 10.1947 11.9858 4.6395 11.9858C2.928 11.9858 1.338 11.49 0 10.629C0.243 10.6568 0.477 10.6665 0.72975 10.6665C2.08949 10.6698 3.41073 10.2151 4.4805 9.37575C3.85007 9.36434 3.23893 9.15634 2.73243 8.7808C2.22593 8.40526 1.84934 7.88092 1.65525 7.281C1.842 7.30875 2.0295 7.3275 2.226 7.3275C2.49675 7.3275 2.769 7.29 3.02175 7.22475C2.33757 7.08661 1.72236 6.71576 1.28071 6.17527C0.839073 5.63477 0.59827 4.95799 0.59925 4.26V4.2225C1.002 4.44675 1.46925 4.587 1.96425 4.60575C1.54957 4.33019 1.20954 3.95627 0.974505 3.51734C0.73947 3.07842 0.616735 2.58814 0.61725 2.09025C0.61725 1.52925 0.7665 1.01475 1.02825 0.566252C1.78735 1.50002 2.73413 2.26392 3.80725 2.8085C4.88038 3.35307 6.05592 3.66616 7.25775 3.7275C7.21125 3.5025 7.18275 3.26925 7.18275 3.03525C7.18255 2.63847 7.26056 2.24555 7.41231 1.87893C7.56406 1.51232 7.78658 1.17921 8.06714 0.898643C8.34771 0.618078 8.68082 0.39556 9.04743 0.243811C9.41404 0.0920609 9.80697 0.0140549 10.2037 0.0142521C11.0737 0.0142521 11.859 0.378752 12.411 0.968252C13.0873 0.837465 13.7359 0.590569 14.328 0.238502C14.1026 0.936614 13.6303 1.52858 12.9998 1.9035C13.5996 1.83509 14.1858 1.67734 14.739 1.4355C14.3258 2.03783 13.8139 2.56601 13.2247 2.99775Z"
@@ -54,7 +53,7 @@
             </a>
           </li>
           <li class="social__media__item mr__1rem">
-            <a href="#" class="social__media__link circle bg__medium__gray ">
+            <a href="https://www.facebook.com/darly.agostinho" class="social__media__link circle bg__medium__gray ">
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M10.0478 15.7478V9.60075H12.1215L12.4298 7.19401H10.0478V5.66101C10.0478 4.9665 10.2413 4.49101 11.238 4.49101H12.501V2.34525C11.8865 2.2794 11.2688 2.2476 10.6508 2.25C8.81777 2.25 7.55927 3.369 7.55927 5.42326V7.18951H5.49902V9.59626H7.56377V15.7478H10.0478Z"
@@ -64,7 +63,7 @@
             </a>
           </li>
           <li class="social__media__item mr__1rem">
-            <a href="#" class="social__media__link circle bg__medium__gray ">
+            <a href="https://www.instagram.com/darlyagostinho" class="social__media__link circle bg__medium__gray ">
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M8.99925 5.53275C8.07948 5.53275 7.19738 5.89812 6.547 6.5485C5.89663 7.19888 5.53125 8.08097 5.53125 9.00075C5.53125 9.92052 5.89663 10.8026 6.547 11.453C7.19738 12.1034 8.07948 12.4687 8.99925 12.4687C9.91902 12.4687 10.8011 12.1034 11.4515 11.453C12.1019 10.8026 12.4672 9.92052 12.4672 9.00075C12.4672 8.08097 12.1019 7.19888 11.4515 6.5485C10.8011 5.89812 9.91902 5.53275 8.99925 5.53275V5.53275ZM8.99925 11.253C8.40172 11.253 7.82866 11.0156 7.40614 10.5931C6.98362 10.1706 6.74625 9.59753 6.74625 9C6.74625 8.40246 6.98362 7.8294 7.40614 7.40688C7.82866 6.98436 8.40172 6.747 8.99925 6.747C9.59678 6.747 10.1698 6.98436 10.5924 7.40688C11.0149 7.8294 11.2523 8.40246 11.2523 9C11.2523 9.59753 11.0149 10.1706 10.5924 10.5931C10.1698 11.0156 9.59678 11.253 8.99925 11.253V11.253Z"
@@ -80,7 +79,8 @@
             </a>
           </li>
           <li class="social__media__item mr__1rem">
-            <a href="#" class="social__media__link circle bg__medium__gray ">
+            <a href="https://www.linkedin.com/in/darly-agostinho-45682722/"
+              class="social__media__link circle bg__medium__gray ">
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M3.73719 5.39775C4.64349 5.39775 5.37819 4.66305 5.37819 3.75675C5.37819 2.85045 4.64349 2.11575 3.73719 2.11575C2.83089 2.11575 2.09619 2.85045 2.09619 3.75675C2.09619 4.66305 2.83089 5.39775 3.73719 5.39775Z"
@@ -89,7 +89,6 @@
                   d="M6.92779 6.64126V15.7455H9.75454V11.2433C9.75454 10.0553 9.97804 8.90476 11.451 8.90476C12.9038 8.90476 12.9218 10.263 12.9218 11.3183V15.7463H15.75V10.7535C15.75 8.30101 15.222 6.41626 12.3555 6.41626C10.9793 6.41626 10.0568 7.17151 9.67954 7.88626H9.64129V6.64126H6.92779ZM2.32129 6.64126H5.15254V15.7455H2.32129V6.64126Z"
                   fill="#14252D" />
               </svg>
-
             </a>
           </li>
         </ul>
@@ -98,7 +97,8 @@
         <h3 class="footer__title">Contato</h3>
         <ul class="footer__list">
           <li class="footer__item mt__1rem">
-            <a href="#" class="footer__link">
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5562982741818&text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20 seus%20servi%C3%A7os."
+              class="footer__link">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="footer__icon">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M18.403 5.633A8.919 8.919 0 0 0 12.053 3c-4.948 0-8.976 4.027-8.978 8.977 0 1.582.413 3.126 1.198 4.488L3 21.116l4.759-1.249a8.981 8.981 0 0 0 4.29 1.093h.004c4.947 0 8.975-4.027 8.977-8.977a8.926 8.926 0 0 0-2.627-6.35m-6.35 13.812h-.003a7.446 7.446 0 0 1-3.798-1.041l-.272-.162-2.824.741.753-2.753-.177-.282a7.448 7.448 0 0 1-1.141-3.971c.002-4.114 3.349-7.461 7.465-7.461a7.413 7.413 0 0 1 5.275 2.188 7.42 7.42 0 0 1 2.183 5.279c-.002 4.114-3.349 7.462-7.461 7.462m4.093-5.589c-.225-.113-1.327-.655-1.533-.73-.205-.075-.354-.112-.504.112s-.58.729-.711.879-.262.168-.486.056-.947-.349-1.804-1.113c-.667-.595-1.117-1.329-1.248-1.554s-.014-.346.099-.458c.101-.1.224-.262.336-.393.112-.131.149-.224.224-.374s.038-.281-.019-.393c-.056-.113-.505-1.217-.692-1.666-.181-.435-.366-.377-.504-.383a9.65 9.65 0 0 0-.429-.008.826.826 0 0 0-.599.28c-.206.225-.785.767-.785 1.871s.804 2.171.916 2.321c.112.15 1.582 2.415 3.832 3.387.536.231.954.369 1.279.473.537.171 1.026.146 1.413.089.431-.064 1.327-.542 1.514-1.066.187-.524.187-.973.131-1.067-.056-.094-.207-.151-.43-.263" />
@@ -107,7 +107,7 @@
             </a>
           </li>
           <li class="footer__item mt__1rem">
-            <a href="#" class="footer__link">
+            <a href="mailto:darlyagostinho@gmail.com" class="footer__link">
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" class="footer__icon">
                 <path
                   d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z" />
@@ -121,7 +121,7 @@
         <h3 class="footer__title">Currículo</h3>
         <ul class="footer__list">
           <li class="footer__item mt__1rem">
-            <a href="#" class="footer__link">
+            <a href="#resume" class="footer__link">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="footer__icon">
                 <path
                   d="M19.937 8.68c-.011-.032-.02-.063-.033-.094a.997.997 0 0 0-.196-.293l-6-6a.997.997 0 0 0-.293-.196c-.03-.014-.062-.022-.094-.033a.991.991 0 0 0-.259-.051C13.04 2.011 13.021 2 13 2H6c-1.103 0-2 .897-2 2v16c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V9c0-.021-.011-.04-.013-.062a.99.99 0 0 0-.05-.258zM16.586 8H14V5.414L16.586 8zM6 20V4h6v5a1 1 0 0 0 1 1h5l.002 10H6z" />
@@ -130,7 +130,8 @@
             </a>
           </li>
           <li class="footer__item mt__1rem">
-            <a href="#" class="footer__link">
+            <a href="https://darlyagostinho.com/wp-content/uploads/2022/01/curriculo-Darly-Agostinho-Teste.pdf"
+              class="nav__link" download="curriculo-Darly-Agostinho" target="_blank" rel="noopener">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="footer__icon">
                 <path d="m12 16 4-5h-3V4h-2v7H8z" />
                 <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7z" />

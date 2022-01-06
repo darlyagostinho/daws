@@ -39,6 +39,9 @@
     display: flex;
     align-items: center;
     @include nav-link;
+    &:hover{
+      color: var(--color-primary);
+    }
     &.active {
       color: var(--color-white);
     }
