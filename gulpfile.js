@@ -69,7 +69,7 @@ function jsUglifyNav() {
 
 function browser() {
   browserSync.init({
-    proxy: `http://localhost/${theme}v3/`
+    proxy: `http://localhost/${theme}/`
   });
 }
 
