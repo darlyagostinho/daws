@@ -3054,6 +3054,21 @@ button {
 .nav__icon.active {
   fill: var(--color-primary);
 }
+.nav__item .trp-language-switcher {
+  padding-top: 0.375rem;
+}
+.nav__item .trp-language-switcher > div {
+  background-color: transparent;
+  border: none;
+  border-radius: unset;
+  padding: 3px 20px 3px 0;
+}
+.nav__item .trp-language-switcher > div > a:hover {
+  background: transparent;
+}
+.nav__item .trp-ls-shortcode-current-language {
+  width: auto !important;
+}
 
 /*social media*/
 .social__media__link:hover {

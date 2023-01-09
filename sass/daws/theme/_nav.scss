@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     @include nav-link;
-    &:hover{
+    &:hover {
       color: var(--color-primary);
     }
     &.active {
@@ -52,6 +52,23 @@
       fill: var(--color-primary);
     }
   }
+  &__item {
+    .trp-language-switcher {
+      padding-top: 0.375rem;
+      > div {
+        background-color: transparent;
+        border: none;
+        border-radius: unset;
+        padding: 3px 20px 3px 0;
+        > a:hover {
+          background: transparent;
+        }
+      }
+    }
+    .trp-ls-shortcode-current-language {
+      width: auto !important;
+    }
+  }
 }
 
 /*social media*/
@@ -62,7 +79,7 @@
         background-color: var(--color-primary);
       }
     }
-    &__list{
+    &__list {
       @media (min-width: 64rem/*1024px*/) {
         margin-top: 1rem;
       }
@@ -94,13 +111,13 @@
   }
   &__link {
     @include nav-link(--color-gray-medium);
-    &:hover{
+    &:hover {
       color: var(--color-primary);
     }
   }
   &__icon {
     fill: var(--color-gray-medium);
-    &:hover{
+    &:hover {
       fill: var(--color-primary);
     }
   }

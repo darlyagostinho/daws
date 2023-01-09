@@ -41,6 +41,5 @@
     "gulp-zip": "^5.1.0",
     "postcss": "^8.3.6",
     "sass": "^1.41.1"
-  },
-  "dependencies": {}
+  }
 }
